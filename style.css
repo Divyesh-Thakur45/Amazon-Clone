@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+#navigation{
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    color: #fff;
+}
+.bi-caret-down-fill{
+    font-size: 10px;
+}
+.language{
+    background-color: #fff;
+    padding: 10px 20px;
+    /* width: 10%;
+    height: 20vh; */
+}
+.language ul li{
+    list-style: none;
+}
+.language ul li a{
+    text-decoration: none;
+}
+.sub-language li{
+    list-style: none;
+    /* text-decoration: none; */
+}
+.sub-language li a{
+    /* list-style: none; */
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
