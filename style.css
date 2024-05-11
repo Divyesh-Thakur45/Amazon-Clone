@@ -7,9 +7,13 @@
 #navigation{
     background-color: black;
     width: 100%;
-    height: 20vh;
+    /* height: 20vh; */
+    align-items: center;
     text-decoration: none;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
 }
 .logo{
     color: #fff;
@@ -17,9 +21,31 @@
 .bi-caret-down-fill{
     font-size: 10px;
 }
+.search{
+    color: #000;
+    width: 50%;
+}
+.all-Search{
+    overflow: auto;
+    height: 50vh;
+}
+.all-Search p{
+    /* font-size: 13px; */
+    font-weight: 530;
+    margin: 5px 0px 0px 5px;
+    color: #0f1111;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    /* background-color: red; */
+}
+.bi-search{
+    /* background-color: yellow; */
+}
 .language{
     background-color: #fff;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     /* width: 10%;
     height: 20vh; */
 }
@@ -29,6 +55,9 @@
 .language ul li a{
     text-decoration: none;
 }
+.sub-language{
+    display: none;
+}
 .sub-language li{
     list-style: none;
     /* text-decoration: none; */
@@ -37,10 +66,59 @@
     /* list-style: none; */
     text-decoration: none;
 }
+.sub-signup{
+    background-color: #fff;
+    padding: 2px;
+    position: relative;
+}
+.sub-signup p {
+    margin: 0%;
+}
+.signin-box{
+    background-color: white;
+    display: none;
+    font-size: 12px;
+    width: 33%;
+    padding: 10px 15px;
+    position: absolute;
+    right: 10%;
+    margin: auto;
+    text-align: center;
+
+}
 table {
     border-collapse: collapse;
+    /* background-color: yellow; */
 }
 
 td {
-    padding: 10px;
+    padding: 2px 0px 3px 40px;
+    text-align: left;
+}
+
+table tr td a {
+    text-decoration: none;
+    font-size: 14px;
+    /* background-color: red; */
+    color: #000;
+}
+.order{
+    background-color: #fff;
+    padding: 2px;
+}
+.order p{
+    /* background-color: rebeccapurple; */
+    margin: 0%;
+    font-size: 14px;
+}
+.order h6{
+    /* background-color: red; */
+}
+.cart{
+    background-color: #fff;
+    padding: 2px;
+    font-size: 16px;
+}
+.cart i{
+    font-size: 32px;
 }
