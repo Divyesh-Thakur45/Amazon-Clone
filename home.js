@@ -68,7 +68,9 @@ mobileData()
 function mobileCard(image,discount,title,price,mrp){
     let div = `
     <div class="m1">
-        <img src="${image}" alt="">
+        <div class="img-card">  
+            <img src="${image}" alt="">
+        </div>
         <div class="mobile-body">
             <p class="discountPara"><span class="discount">${discount}</span> Limited time deal</p>
             <p class="price">${price} <span class="mrp">M.R.P. : <del class="mrp">${mrp}</del></span></p>
@@ -134,4 +136,42 @@ RightArrow2.addEventListener("click", () => {
 leftArrow2.addEventListener("click", () => {
     sportSlider.style.scrollBehavior = "smooth"
     sportSlider.scrollLeft -= 1520
+})
+
+
+function fourthSlider(){
+    fetch("http://localhost:3000/product").then((res)=>res.json())
+    .then((data)=>fourthcardList(data))
+    .catch((error)=>console.log(error))
+}
+fourthSlider()
+
+function fourthcard(image){
+    let div = `
+            <div class="product-img">
+                <img src="${image}" alt="">
+            </div>
+    `
+    return div
+}
+
+function fourthcardList(data){
+    let store = data.map((e)=>{
+        return fourthcard(e.image)
+    })
+    document.querySelector(".product-slider").innerHTML = store.join("")
+}
+
+let RightArrow3 = document.querySelector(".RightArrow3")
+let productSlider = document.querySelector(".product-slider")
+let leftArrow3 = document.querySelector(".leftArrow3")
+
+RightArrow3.addEventListener("click", () => {
+    productSlider.style.scrollBehavior = "smooth"
+    productSlider.scrollLeft += 1000
+
+})
+leftArrow3.addEventListener("click", () => {
+    productSlider.style.scrollBehavior = "smooth"
+    productSlider.scrollLeft -= 1000
 })

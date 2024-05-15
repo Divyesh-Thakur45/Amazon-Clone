@@ -1,33 +1,33 @@
 {
     "data": [
         {
-            "image1": "img/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
+            "image1": "img/f1.jpg",
             "title1": "Air conditioners",
-            "image2": "img/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
+            "image2": "img/f2.jpg",
             "title2": "Refrigerators",
-            "image3": "img/box-3.jpg",
+            "image3": "img/f3.jpg",
             "title3": "Microwaves",
-            "image4": "img/box-4.jpg",
+            "image4": "img/f4.jpg",
             "title4": "Washing machines"
         },
         {
-            "image1": "img/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
+            "image1": "img/f5.jpg",
             "title1": "Cushion covers, bedsheets & more",
-            "image2": "img/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
+            "image2": "img/f6.jpg",
             "title2": "Figurines, vases and more",
-            "image3": "img/box-3.jpg",
+            "image3": "img/f7.jpg",
             "title3": "Home storage",
-            "image4": "img/box-4.jpg",
+            "image4": "img/f8.jpg",
             "title4": "Lighting solutions"
         },
         {
-            "image1": "img/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
+            "image1": "img/f9.jpg",
             "title1": "Women's Clothing",
-            "image2": "img/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
+            "image2": "img/f10.jpg",
             "title2": "Footwear+Handbags",
-            "image3": "img/box-3.jpg",
+            "image3": "img/f11.jpg",
             "title3": "Watches",
-            "image4": "img/box-4.jpg",
+            "image4": "img/f12.jpg",
             "title4": "Fashion jewellery"
         },
         {
@@ -41,43 +41,43 @@
             "title4": "Washing machines"
         },
         {
-            "image1": "img/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
+            "image1": "img/f13.jpg",
             "title1": "Air conditioners",
-            "image2": "img/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
+            "image2": "img/f14.jpg",
             "title2": "Refrigerators",
-            "image3": "img/box-3.jpg",
+            "image3": "img/f15.jpg",
             "title3": "Microwaves",
-            "image4": "img/box-4.jpg",
+            "image4": "img/f16.jpg",
             "title4": "Washing machines"
         },
         {
-            "image1": "img/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
-            "title1": "Air conditioners",
-            "image2": "img/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
-            "title2": "Refrigerators",
-            "image3": "img/box-3.jpg",
-            "title3": "Microwaves",
-            "image4": "img/box-4.jpg",
-            "title4": "Washing machines"
+            "image1": "img/f17.jpg",
+            "title1": "Women's Clothing",
+            "image2": "img/f18.jpg",
+            "title2": "Footwear+Handbags",
+            "image3": "img/f19.jpg",
+            "title3": "Watches",
+            "image4": "img/f20.jpg",
+            "title4": "Fashion jewellery"
         },
         {
-            "image1": "img/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
-            "title1": "Air conditioners",
-            "image2": "img/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
-            "title2": "Refrigerators",
-            "image3": "img/box-3.jpg",
-            "title3": "Microwaves",
-            "image4": "img/box-4.jpg",
-            "title4": "Washing machines"
+            "image1": "img/f21.jpg",
+            "title1": "Cushion covers, bedsheets & more",
+            "image2": "img/f22.jpg",
+            "title2": "Figurines, vases and more",
+            "image3": "img/f23.jpg",
+            "title3": "Home storage",
+            "image4": "img/f24.jpg",
+            "title4": "Lighting solutions"
         },
         {
-            "image1": "img/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
+            "image1": "img/f25.jpg",
             "title1": "Air conditioners",
-            "image2": "img/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
+            "image2": "img/f26.jpg",
             "title2": "Refrigerators",
-            "image3": "img/box-3.jpg",
+            "image3": "img/f27.jpg",
             "title3": "Microwaves",
-            "image4": "img/box-4.jpg",
+            "image4": "img/f28.jpg",
             "title4": "Washing machines"
         }
     ],
@@ -179,9 +179,6 @@
             "image": "img/1.jpg"
         },
         {
-            "image": "img/2.jpg"
-        },
-        {
             "image": "img/3.jpg"
         },
         {
@@ -259,5 +256,40 @@
         {
             "image": "img/28.jpg"
         }
+    ],
+    "product" : [
+            {
+                "image": "img/a1.jpg"
+            },
+            {
+                "image": "img/a3.jpg"
+            },
+            {
+                "image": "img/a4.jpg"
+            },
+            {
+                "image": "img/a5.jpg"
+            },
+            {
+                "image": "img/a6.jpg"
+            },
+            {
+                "image": "img/a7.jpg"
+            },
+            {
+                "image": "img/a8.jpg"
+            },
+            {
+                "image": "img/a9.jpg"
+            },
+            {
+                "image": "img/a10.jpg"
+            },
+            {
+                "image": "img/a11.jpg"
+            },
+            {
+                "image": "img/a12.jpg"
+            }    
     ]
 }

@@ -4,10 +4,34 @@
     box-sizing: border-box;
     
 }
-body{
-    /* background-color:#e3e6e6;
-    height: 500vh; */
+.body{
+    background-color: #e3e6e6;
 }
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+    
+	width: 1px;
+    height: 7px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+/* body{
+    background-color:#232f3e;
+    height: 500vh;
+} */
 #navigation{
     background-color: black;
     width: 100%;
@@ -187,7 +211,7 @@ table tr td a {
 }
 .sub-slider{
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     
 }
@@ -257,7 +281,7 @@ table tr td a {
     color: #0f1111;
 }
 .second-slider-head{
-    margin: 5px 40px;
+    margin: 5px 70px;
     display: flex;
     align-items: center;
 }
@@ -269,8 +293,11 @@ table tr td a {
 #secondSlider{
     margin: auto;
     /* height: 380px; */
-    width: 95%;
-    /* background-color: red; */
+    width: 98%;
+    margin: 2% 1%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 5px 25px 5px;
 }
 .mobiles{
     position: relative;
@@ -279,7 +306,7 @@ table tr td a {
 }
 .mobile-slider{
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     width: 95%;
     margin: auto;
     display: flex;
@@ -309,15 +336,14 @@ table tr td a {
     box-shadow: 0 1px 3px #888;
 }
 .m1{
-    /* width: 1000px; */
     margin: 0px 40px 0px 0px;
-    /* height: 200px; */
-    /* width: 100%; */
-    /* background-color: green; */
 }
-.m1 img{
+.img-card{
     width: 200px;
-    height: 200px;
+}
+.img-card img{
+    display: block;
+    margin: auto;
 }
 .discount{
     background-color: #cc0c39;
@@ -348,24 +374,32 @@ table tr td a {
     margin: 0%;
 }
 #thirdSlider{
+    border-radius: 5px;
     position: relative;
-    margin: 30px 0px;
+    margin: 2% 1%;
+    background-color: #fff;
+    padding: 10px 5px 25px 5px;
+}
+.thirdSliderHead{
+    display: flex;
+    margin: 5px 80px;
+    align-items: center;
+}
+.thirdSliderHead a{
+    text-decoration: none;
+    margin: 0px 10px;
 }
 .sport-slider{
     display: flex;
     width: 90%;
     margin: auto;
-    overflow: hidden;
-    gap: 20px;
+    overflow: auto;
+    gap: 40px;
     position: relative;
-}
-.sport-slider img{
-    width: 230px;
-
 }
 .leftArrow2{
     left: 2%;
-    top: 55px;
+    top: 33%;
     position: absolute;
     font-size: 40px;
     background-color: #fff;
@@ -377,7 +411,7 @@ table tr td a {
 }
 .RightArrow2{
     right: 2%;
-    bottom: 55px;
+    bottom: 33%;
     position: absolute;
     font-size: 40px;
     background-color: #fff;
@@ -386,4 +420,55 @@ table tr td a {
     width: 45px;
     text-align: center;
     box-shadow: 0 1px 3px #888;
+}
+#FourthSlider{
+    margin: 2% 1%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 5px 25px 5px;
+    position: relative;
+}
+.FourthSlider-head{
+    display: flex;
+    margin: 5px 80px;
+    align-items: center;
+}
+.FourthSlider-head a{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.product-slider{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+}
+.leftArrow3{
+    left: 2%;
+    top: 33%;
+    position: absolute;
+    font-size: 40px;
+    background-color: #fff;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+}
+.RightArrow3{
+    right: 2%;
+    bottom: 33%;
+    position: absolute;
+    font-size: 40px;
+    background-color: #fff;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+}
+.product-img img{
+    width: 320px;
+    height: 200px;
 }
