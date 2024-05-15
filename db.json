@@ -1,6 +1,7 @@
 {
     "data": [
         {
+            "title" : "Appliances for your home | Up to 55% off",
             "image1": "img/f1.jpg",
             "title1": "Air conditioners",
             "image2": "img/f2.jpg",
@@ -11,6 +12,7 @@
             "title4": "Washing machines"
         },
         {
+            "title" : "Up to 60% off | Styles for women",
             "image1": "img/f5.jpg",
             "title1": "Cushion covers, bedsheets & more",
             "image2": "img/f6.jpg",
@@ -21,6 +23,7 @@
             "title4": "Lighting solutions"
         },
         {
+            "title" : "Starting ₹199 | Amazon Brands & more",
             "image1": "img/f9.jpg",
             "title1": "Women's Clothing",
             "image2": "img/f10.jpg",
@@ -31,6 +34,7 @@
             "title4": "Fashion jewellery"
         },
         {
+            "title" : "Revamp your home in style",
             "image1": "img/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
             "title1": "Air conditioners",
             "image2": "img/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
@@ -41,6 +45,7 @@
             "title4": "Washing machines"
         },
         {
+            "title" : "Automotive essentials | Up to 60% off",
             "image1": "img/f13.jpg",
             "title1": "Air conditioners",
             "image2": "img/f14.jpg",
@@ -51,6 +56,7 @@
             "title4": "Washing machines"
         },
         {
+            "title" : "Starting ₹129 | Amazon Brands & more",
             "image1": "img/f17.jpg",
             "title1": "Women's Clothing",
             "image2": "img/f18.jpg",
@@ -61,6 +67,7 @@
             "title4": "Fashion jewellery"
         },
         {
+            "title" : "Up to 60% off | Professional tools, testing & more",
             "image1": "img/f21.jpg",
             "title1": "Cushion covers, bedsheets & more",
             "image2": "img/f22.jpg",
@@ -71,6 +78,7 @@
             "title4": "Lighting solutions"
         },
         {
+            "title" : "Appliances for your home | Up to 69% off",
             "image1": "img/f25.jpg",
             "title1": "Air conditioners",
             "image2": "img/f26.jpg",
@@ -174,7 +182,7 @@
             "mrp": "₹12,999.00"
         }
     ],
-    "sports" : [
+    "sports": [
         {
             "image": "img/1.jpg"
         },
@@ -257,39 +265,138 @@
             "image": "img/28.jpg"
         }
     ],
-    "product" : [
-            {
-                "image": "img/a1.jpg"
-            },
-            {
-                "image": "img/a3.jpg"
-            },
-            {
-                "image": "img/a4.jpg"
-            },
-            {
-                "image": "img/a5.jpg"
-            },
-            {
-                "image": "img/a6.jpg"
-            },
-            {
-                "image": "img/a7.jpg"
-            },
-            {
-                "image": "img/a8.jpg"
-            },
-            {
-                "image": "img/a9.jpg"
-            },
-            {
-                "image": "img/a10.jpg"
-            },
-            {
-                "image": "img/a11.jpg"
-            },
-            {
-                "image": "img/a12.jpg"
-            }    
+    "product": [
+        {
+            "image": "img/a1.jpg"
+        },
+        {
+            "image": "img/a3.jpg"
+        },
+        {
+            "image": "img/a4.jpg"
+        },
+        {
+            "image": "img/a5.jpg"
+        },
+        {
+            "image": "img/a6.jpg"
+        },
+        {
+            "image": "img/a7.jpg"
+        },
+        {
+            "image": "img/a8.jpg"
+        },
+        {
+            "image": "img/a9.jpg"
+        },
+        {
+            "image": "img/a10.jpg"
+        },
+        {
+            "image": "img/a11.jpg"
+        },
+        {
+            "image": "img/a12.jpg"
+        }
+    ],
+    "shopping": [
+        {
+            "title": "Pick up where you left off",
+            "image1": "img/s1.jpg",
+            "description": "BULMARC's Resistance Band Pull Up Assist Bands with 65+ Exercises for Pull Ups, Chin Ups, Stretchi…",
+            "price": "₹485.00",
+            "mrp": "₹1,290.00",
+            "image2":"img/s2.jpg",
+            "image3":"img/s3.jpg",
+            "image4":"img/s4.jpg",
+            "image5":"img/s5.jpg"
+        },
+        {
+            "title": "More items to consider",
+            "image1": "img/s6.jpg",
+            "description": "Mommers 4mm Yoga Mats|Gym Mats for Home Workouts|Yoga Mats for Women and Men 6x2 Fee…",
+            "price": "₹249.00",
+            "mrp": "₹549.00",
+            "image2":"img/s7.jpg",
+            "image3":"img/s8.jpg",
+            "image4":"img/s9.jpg",
+            "image5":"img/s10.jpg"
+        },
+        {
+            "title": "Pick up where you left off",
+            "image1": "img/s1.jpg",
+            "description": "BULMARC's Resistance Band Pull Up Assist Bands with 65+ Exercises for Pull Ups, Chin Ups, Stretchi…",
+            "price": "₹485.00",
+            "mrp": "₹1,290.00",
+            "image2":"img/s2.jpg",
+            "image3":"img/s3.jpg",
+            "image4":"img/s4.jpg",
+            "image5":"img/s5.jpg"
+        },
+        {
+            "title": "Pick up where you left off",
+            "image1": "img/s6.jpg",
+            "description": "BULMARC's Resistance Band Pull Up Assist Bands with 65+ Exercises for Pull Ups, Chin Ups, Stretchi…",
+            "price": "₹485.00",
+            "mrp": "₹1,290.00",
+            "image2":"img/s7.jpg",
+            "image3":"img/s8.jpg",
+            "image4":"img/s9.jpg",
+            "image5":"img/s10.jpg"
+        }
+    ],
+    "decoration": [
+        {
+            "image": "img/d1.jpg"
+        },
+        {
+            "image": "img/d3.jpg"
+        },
+        {
+            "image": "img/d4.jpg"
+        },
+        {
+            "image": "img/d5.jpg"
+        },
+        {
+            "image": "img/d6.jpg"
+        },
+        {
+            "image": "img/d7.jpg"
+        },
+        {
+            "image": "img/d8.jpg"
+        },
+        {
+            "image": "img/d9.jpg"
+        },
+        {
+            "image": "img/d10.jpg"
+        },
+        {
+            "image": "img/d11.jpg"
+        },
+        {
+            "image": "img/d12.jpg"
+        },
+        {
+            "image": "img/d13.jpg"
+        },
+        {
+            "image": "img/d14.jpg"
+        },
+        {
+            "image": "img/d15.jpg"
+        },
+        {
+            "image": "img/d16.jpg"
+        },
+        {
+            "image": "img/d17.jpg"
+        },
+        {
+            "image": "img/d18.jpg"
+        }
     ]
 }
