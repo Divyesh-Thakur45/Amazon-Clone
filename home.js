@@ -54,3 +54,84 @@ function boxes(data){
     })
     document.querySelector(".sales").innerHTML = store.join("")
 }
+
+
+
+function mobileData(){
+    fetch("http://localhost:3000/slider")
+    .then((res)=>res.json())
+    .then((data)=>mobileCardList(data))
+    .catch((error)=>console.log(error))
+}
+mobileData()
+
+function mobileCard(image,discount,title,price,mrp){
+    let div = `
+    <div class="m1">
+        <img src="${image}" alt="">
+        <div class="mobile-body">
+            <p class="discountPara"><span class="discount">${discount}</span> Limited time deal</p>
+            <p class="price">${price} <span class="mrp">M.R.P. : <del class="mrp">${mrp}</del></span></p>
+            <h6>${title}</h6>
+        </div>
+    </div>
+    `
+    return div
+}
+
+function mobileCardList(mobileDetail){
+    let mobileBox = mobileDetail.map((el)=>{
+        return mobileCard(el.image,el.discount,el.title,el.price,el.mrp)
+    })
+    document.querySelector(".mobile-slider").innerHTML = mobileBox.join("")
+}
+
+let rightside = document.querySelector(".RightArrow1")
+let mobileSlider = document.querySelector(".mobile-slider")
+let leftside = document.querySelector(".leftArrow1")
+
+rightside.addEventListener("click", () => {
+    mobileSlider.style.scrollBehavior = "smooth"
+    mobileSlider.scrollLeft += 1000
+
+})
+leftside.addEventListener("click", () => {
+    mobileSlider.style.scrollBehavior = "smooth"
+    mobileSlider.scrollLeft -= 1000
+})
+
+
+function thirdSliderData(){
+    fetch("http://localhost:3000/sports").then((res)=>res.json())
+    .then((data)=>slideimagess(data))
+    .catch((error)=>console.log(error))
+}
+thirdSliderData()
+
+function sliderImg(image){
+    let div = `
+            <img src="${image}" alt="">
+    `
+    return div
+}
+
+function slideimagess(data){
+    let store = data.map((e)=>{
+        return sliderImg(e.image)
+    })
+    document.querySelector(".sport-slider").innerHTML = store.join("")
+}
+
+let leftArrow2 = document.querySelector(".leftArrow2")
+let sportSlider = document.querySelector(".sport-slider")
+let RightArrow2 = document.querySelector(".RightArrow2")
+
+RightArrow2.addEventListener("click", () => {
+    sportSlider.style.scrollBehavior = "smooth"
+    sportSlider.scrollLeft += 1520
+
+})
+leftArrow2.addEventListener("click", () => {
+    sportSlider.style.scrollBehavior = "smooth"
+    sportSlider.scrollLeft -= 1520
+})

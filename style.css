@@ -176,12 +176,14 @@ table tr td a {
     padding: 4px 5px;
 }
 #slider{
-    position: relative;
+    background-color: #e3e6e6;
+    height: 150vh;
+    /* margin: 0px 0px 120px 0px; */
 }
 .slider{
-    width: 99%;
+    width: 100%;
     margin: auto;
-    position: relative;
+    position: absolute;
 }
 .sub-slider{
     width: 100%;
@@ -193,37 +195,38 @@ table tr td a {
     width: 1520px;
     height: 100%;
 }
-.bi-chevron-left{
+.left-side{
     position: absolute;
     font-size: 52px;
     top: 15%;
     left: 1%;
     color: #000;
-    padding: 25px 5px;
+    padding: 45px 5px;
 }
-.bi-chevron-right{
+.right-side{
     position: absolute;
     font-size: 52px;
     top: 15%;
     right: 1%;
     color: #000;
-    padding: 25px 5px;
+    padding: 45px 5px;
 }
-.bi-chevron-right:hover{
+.right-side:hover{
     border: 1px solid #232f3e;
     cursor: pointer;
 }   
-.bi-chevron-left:hover{
+.left-side:hover{
     border: 1px solid #232f3e;
     cursor: pointer;
 } 
 .sales{
-    position: absolute;
-    top: 36%;
-    left: 1%;
+    /* padding-bottom: 50%; */
+    /* margin-bottom: -50%; */
+    /* padding-bottom: 10%; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 99%;
+    margin: auto;;
 }
 .box{
     background-color: red;
@@ -233,6 +236,9 @@ table tr td a {
     background-color: #FFF;
     overflow: auto;
     padding: 20px 10px 15px 10px;
+    position: relative;
+    /* bottom: 90%; */
+    top: 52%;
 }
 .box h4{
     margin: 0px 0px 5px 2px;
@@ -249,4 +255,135 @@ table tr td a {
     font-size: 12px;
     line-height: 18px;
     color: #0f1111;
+}
+.second-slider-head{
+    margin: 5px 40px;
+    display: flex;
+    align-items: center;
+}
+.second-slider-head a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 14px;
+}
+#secondSlider{
+    margin: auto;
+    /* height: 380px; */
+    width: 95%;
+    /* background-color: red; */
+}
+.mobiles{
+    position: relative;
+    width: 99%;
+    margin: auto;
+}
+.mobile-slider{
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+.leftArrow1{
+    position: absolute;
+    font-size: 40px;
+    top: 55px;
+    left: 0%;
+    background-color: #fff;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+}
+.RightArrow1{
+    right: 0%;
+    position: absolute;
+    font-size: 40px;
+    top: 55px;
+    background-color: #fff;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+}
+.m1{
+    /* width: 1000px; */
+    margin: 0px 40px 0px 0px;
+    /* height: 200px; */
+    /* width: 100%; */
+    /* background-color: green; */
+}
+.m1 img{
+    width: 200px;
+    height: 200px;
+}
+.discount{
+    background-color: #cc0c39;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #fff;
+}
+.discountPara{
+    font-size: 12px;
+    color: #cc0c39;
+    font-weight: 700;
+}
+.price{
+    font-size: 18px;
+    font-weight: 500;
+}
+.mrp{
+    color: #232f3e;
+    font-size: 12px;
+}
+.mobile-body{
+    padding: 5px 0px;
+}
+.mobile-body h6{
+    font-size: 14px;
+    margin: 0%;
+}
+#thirdSlider{
+    position: relative;
+    margin: 30px 0px;
+}
+.sport-slider{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    gap: 20px;
+    position: relative;
+}
+.sport-slider img{
+    width: 230px;
+
+}
+.leftArrow2{
+    left: 2%;
+    top: 55px;
+    position: absolute;
+    font-size: 40px;
+    background-color: #fff;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+}
+.RightArrow2{
+    right: 2%;
+    bottom: 55px;
+    position: absolute;
+    font-size: 40px;
+    background-color: #fff;
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
 }
