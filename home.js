@@ -259,3 +259,76 @@ leftArrow4.addEventListener("click", () => {
     decorationSlider.scrollLeft -= 1000
 })
 
+
+
+
+function BrandsData(){
+    fetch("http://localhost:3000/brands").then((res) => res.json())
+    .then((data) => BrandsCardList(data))
+    .catch((error) => console.log(error))
+}
+BrandsData()
+
+function BrandsCard(title,image,image1,image2,image3,image4,description1,description2,description3,description4,price1,price2,price3,price4){
+    let div = `
+    <div class="Brandbox">
+    <h4>${title}</h4>
+    <div class="brand-box-bigimg">
+        <img src="${image}" alt="">
+    </div>
+    <a href="#">See All offers</a>
+</div>
+<div class="Brandbox">
+    <h4>${title}</h4>
+    <div class="BrandboxMain">
+        <div class="BrandboxSub">
+            <div class="brand-box-img">
+                <img src="${image1}" alt="">
+            </div>
+            <div class="brand-box-body">
+                <p>${description1}</p>
+                <h6>${price1}</h6>
+            </div>
+        </div>
+        <div class="BrandboxSub">
+            <div class="brand-box-img">
+                <img src="${image2}" alt="">
+            </div>
+            <div class="brand-box-body">
+                <p>${description2}</p>
+                <h6>${price2}</h6>
+            </div>
+        </div>
+    </div>
+    <div class="BrandboxMain">
+        <div class="BrandboxSub">
+            <div class="brand-box-img">
+                <img src="${image3}" alt="">
+            </div>
+            <div class="brand-box-body">
+                <p>${description3}</p>
+                <h6>${price3}</h6>
+            </div>
+        </div>
+        <div class="BrandboxSub">
+            <div class="brand-box-img">
+                <img src="${image4}" alt="">
+            </div>
+            <div class="brand-box-body">
+                <p>${description4}</p>
+                <h6>${price4}</h6>
+            </div>
+        </div>
+    </div>
+    <a href="#">See All</a>
+</div>
+    `
+    return div
+}
+
+function BrandsCardList(data){
+    let brandStore = data.map((e)=>{
+        return BrandsCard(e.title,e.image,e.image1,e.image2,e.image3,e.image4,e.description1,e.description2,e.description3,e.description4,e.price1,e.price2,e.price3,e.price4)
+    })
+    document.querySelector("#brands").innerHTML = brandStore.join("")
+}
