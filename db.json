@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "title" : "Appliances for your home | Up to 55% off",
+            "title": "Appliances for your home | Up to 55% off",
             "image1": "img/f1.jpg",
             "title1": "Air conditioners",
             "image2": "img/f2.jpg",
@@ -12,7 +12,7 @@
             "title4": "Washing machines"
         },
         {
-            "title" : "Up to 60% off | Styles for women",
+            "title": "Up to 60% off | Styles for women",
             "image1": "img/f5.jpg",
             "title1": "Cushion covers, bedsheets & more",
             "image2": "img/f6.jpg",
@@ -23,7 +23,7 @@
             "title4": "Lighting solutions"
         },
         {
-            "title" : "Starting ₹199 | Amazon Brands & more",
+            "title": "Starting ₹199 | Amazon Brands & more",
             "image1": "img/f9.jpg",
             "title1": "Women's Clothing",
             "image2": "img/f10.jpg",
@@ -34,7 +34,7 @@
             "title4": "Fashion jewellery"
         },
         {
-            "title" : "Revamp your home in style",
+            "title": "Revamp your home in style",
             "image1": "img/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
             "title1": "Air conditioners",
             "image2": "img/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
@@ -45,7 +45,7 @@
             "title4": "Washing machines"
         },
         {
-            "title" : "Automotive essentials | Up to 60% off",
+            "title": "Automotive essentials | Up to 60% off",
             "image1": "img/f13.jpg",
             "title1": "Air conditioners",
             "image2": "img/f14.jpg",
@@ -56,7 +56,7 @@
             "title4": "Washing machines"
         },
         {
-            "title" : "Starting ₹129 | Amazon Brands & more",
+            "title": "Starting ₹129 | Amazon Brands & more",
             "image1": "img/f17.jpg",
             "title1": "Women's Clothing",
             "image2": "img/f18.jpg",
@@ -67,7 +67,7 @@
             "title4": "Fashion jewellery"
         },
         {
-            "title" : "Up to 60% off | Professional tools, testing & more",
+            "title": "Up to 60% off | Professional tools, testing & more",
             "image1": "img/f21.jpg",
             "title1": "Cushion covers, bedsheets & more",
             "image2": "img/f22.jpg",
@@ -78,7 +78,7 @@
             "title4": "Lighting solutions"
         },
         {
-            "title" : "Appliances for your home | Up to 69% off",
+            "title": "Appliances for your home | Up to 69% off",
             "image1": "img/f25.jpg",
             "title1": "Air conditioners",
             "image2": "img/f26.jpg",
@@ -307,10 +307,10 @@
             "description": "BULMARC's Resistance Band Pull Up Assist Bands with 65+ Exercises for Pull Ups, Chin Ups, Stretchi…",
             "price": "₹485.00",
             "mrp": "₹1,290.00",
-            "image2":"img/s2.jpg",
-            "image3":"img/s3.jpg",
-            "image4":"img/s4.jpg",
-            "image5":"img/s5.jpg"
+            "image2": "img/s2.jpg",
+            "image3": "img/s3.jpg",
+            "image4": "img/s4.jpg",
+            "image5": "img/s5.jpg"
         },
         {
             "title": "More items to consider",
@@ -318,10 +318,10 @@
             "description": "Mommers 4mm Yoga Mats|Gym Mats for Home Workouts|Yoga Mats for Women and Men 6x2 Fee…",
             "price": "₹249.00",
             "mrp": "₹549.00",
-            "image2":"img/s7.jpg",
-            "image3":"img/s8.jpg",
-            "image4":"img/s9.jpg",
-            "image5":"img/s10.jpg"
+            "image2": "img/s7.jpg",
+            "image3": "img/s8.jpg",
+            "image4": "img/s9.jpg",
+            "image5": "img/s10.jpg"
         },
         {
             "title": "Pick up where you left off",
@@ -329,10 +329,10 @@
             "description": "BULMARC's Resistance Band Pull Up Assist Bands with 65+ Exercises for Pull Ups, Chin Ups, Stretchi…",
             "price": "₹485.00",
             "mrp": "₹1,290.00",
-            "image2":"img/s2.jpg",
-            "image3":"img/s3.jpg",
-            "image4":"img/s4.jpg",
-            "image5":"img/s5.jpg"
+            "image2": "img/s2.jpg",
+            "image3": "img/s3.jpg",
+            "image4": "img/s4.jpg",
+            "image5": "img/s5.jpg"
         },
         {
             "title": "Pick up where you left off",
@@ -340,10 +340,10 @@
             "description": "BULMARC's Resistance Band Pull Up Assist Bands with 65+ Exercises for Pull Ups, Chin Ups, Stretchi…",
             "price": "₹485.00",
             "mrp": "₹1,290.00",
-            "image2":"img/s7.jpg",
-            "image3":"img/s8.jpg",
-            "image4":"img/s9.jpg",
-            "image5":"img/s10.jpg"
+            "image2": "img/s7.jpg",
+            "image3": "img/s8.jpg",
+            "image4": "img/s9.jpg",
+            "image5": "img/s10.jpg"
         }
     ],
     "decoration": [
@@ -399,44 +399,90 @@
             "image": "img/d18.jpg"
         }
     ],
-    "brands":[
+    "brands": [
         {
-            "title":"Up to 50% off | International brands",
-            "image": "img/b1.jpg"
+            "singleData": [
+                {
+                    "title": "Up to 50% off | International brands",
+                    "image": "img/b1.jpg"
+                },
+                {
+                    "title": "Up to 70% off | International brands",
+                    "image": "img/b10.jpg"
+                }
+            ]
         },
         {
-            "title" : "Continue shopping for",
-            "image1": "img/b2.jpg",
-            "description1" : "iQOO Z9 5G Brushed",
-            "price1":"₹19,999",
-            "image2": "img/b3.jpg",
-            "description2" : "iQOO Z9 5G Brushed",
-            "price2":"₹19,999",
-            "image3": "img/b4.jpg",
-            "description3" : "iQOO Z9 5G Brushed",
-            "price3":"₹19,999",
-            "image4": "img/b5.jpg",
-            "description4" : "iQOO Z9 5G Brushed",
-            "price4":"₹19,999"
+            "multipleData": [
+                {
+                    "title": "Continue shopping for",
+                    "image1": "img/b2.jpg",
+                    "description1": "iQOO Z9 5G Brushed",
+                    "price1": "₹19,999",
+                    "image2": "img/b3.jpg",
+                    "description2": "iQOO Z9 5G Brushed",
+                    "price2": "₹19,999",
+                    "image3": "img/b4.jpg",
+                    "description3": "iQOO Z9 5G Brushed",
+                    "price3": "₹19,999",
+                    "image4": "img/b5.jpg",
+                    "description4": "iQOO Z9 5G Brushed",
+                    "price4": "₹19,999"
+                },
+                {
+                    "title": "Bestsellers in Women's Indian Clothing",
+                    "image1": "img/b7.jpg",
+                    "description1": "",
+                    "price1": "",
+                    "image2": "img/b8.jpg",
+                    "description2": "",
+                    "price2": "",
+                    "image3": "img/b9.jpg",
+                    "description3": "",
+                    "price3": "",
+                    "image4": "img/b6.jpg",
+                    "description4": "",
+                    "price4": ""
+                }
+            ]
+        }
+    ],
+    "shoes" : [
+        {
+            "image": "img/c1.jpg"
         },
         {
-            "title":"Up to 50% off | International brands",
-            "image": "img/b6.jpg"
+            "image": "img/c2.jpg"
         },
         {
-            "title" : "Continue shopping for",
-            "image1": "img/b7.jpg",
-            "description1" : "iQOO Z9 5G Brushed",
-            "price1":"₹19,999",
-            "image2": "img/b8.jpg",
-            "description2" : "iQOO Z9 5G Brushed",
-            "price2":"₹19,999",
-            "image3": "img/b9.jpg",
-            "description3" : "iQOO Z9 5G Brushed",
-            "price3":"₹19,999",
-            "image4": "img/b10.jpg",
-            "description4" : "iQOO Z9 5G Brushed",
-            "price4":"₹19,999"
+            "image": "img/c3.jpg"
+        },
+        {
+            "image": "img/c4.jpg"
+        },
+        {
+            "image": "img/c5.jpg"
+        },
+        {
+            "image": "img/c6.jpg"
+        },
+        {
+            "image": "img/c7.jpg"
+        },
+        {
+            "image": "img/c8.jpg"
+        },
+        {
+            "image": "img/c9.jpg"
+        },
+        {
+            "image": "img/c10.jpg"
+        },
+        {
+            "image": "img/c11.jpg"
+        },
+        {
+            "image": "img/c12.jpg"
         }
     ]
 }

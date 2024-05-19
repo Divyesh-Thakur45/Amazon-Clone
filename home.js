@@ -260,26 +260,57 @@ leftArrow4.addEventListener("click", () => {
 })
 
 
-
-
-function BrandsData(){
-    fetch("http://localhost:3000/brands").then((res) => res.json())
-    .then((data) => BrandsCardList(data))
-    .catch((error) => console.log(error))
+function singleData() {
+    fetch("http://localhost:3000/brands")
+        .then((res) => res.json())
+        .then((data) => {
+            data.forEach((el) => {
+                if (el.singleData) {
+                    singleDataCardList(el.singleData);
+                }
+            });
+        })
+        .catch((error) => console.log(error));
 }
-BrandsData()
+singleData();
 
-function BrandsCard(title,image,image1,image2,image3,image4,description1,description2,description3,description4,price1,price2,price3,price4){
-    let div = `
+function singleDataCard(title, image) {
+    return `
+        <div class="Brandbox">
+            <h4>${title}</h4>
+            <div class="brand-box-bigimg">
+                <img src="${image}" alt="">
+            </div>
+            <a href="#">See All offers</a>
+        </div>
+    `;
+}
+
+function singleDataCardList(data) {
+    const store = data.map((e) => singleDataCard(e.title, e.image));
+    document.querySelector("#left-brand").innerHTML = store.join("");
+}
+
+
+
+function multipleData() {
+    fetch("http://localhost:3000/brands")
+        .then((res) => res.json())
+        .then((data) => {
+            data.forEach((el) => {
+                if (el.multipleData) {
+                    multipleDataCardList(el.multipleData);
+                }
+            });
+        })
+        .catch((error) => console.log(error));
+}
+multipleData();
+
+function multipleDataCard(title, image1,image2,image3,image4,description1,description2,description3,description4,price1,price2,price3,price4) {
+    return `
     <div class="Brandbox">
-    <h4>${title}</h4>
-    <div class="brand-box-bigimg">
-        <img src="${image}" alt="">
-    </div>
-    <a href="#">See All offers</a>
-</div>
-<div class="Brandbox">
-    <h4>${title}</h4>
+        <h4>${title}</h4>
     <div class="BrandboxMain">
         <div class="BrandboxSub">
             <div class="brand-box-img">
@@ -321,14 +352,50 @@ function BrandsCard(title,image,image1,image2,image3,image4,description1,descrip
         </div>
     </div>
     <a href="#">See All</a>
-</div>
+    </div>
+    `;
+}
+
+function multipleDataCardList(data) {
+    const store = data.map((e) => multipleDataCard(e.title,e. image1,e.image2,e.image3,e.image4,e.description1,e.description2,e.description3,e.description4,e.price1,e.price2,e.price3,e.price4));
+    document.querySelector("#right-brand").innerHTML = store.join("");
+}
+
+
+let leftArrow5 = document.querySelector(".leftArrow5")
+let shoesSlider = document.querySelector(".shoes-slider")
+let RightArrow5 = document.querySelector(".RightArrow5")
+
+RightArrow5.addEventListener("click", () => {
+    shoesSlider.style.scrollBehavior = "smooth"
+    shoesSlider.scrollLeft += 1000
+
+})
+leftArrow5.addEventListener("click", () => {
+    shoesSlider.style.scrollBehavior = "smooth"
+    shoesSlider.scrollLeft -= 1000
+})
+
+
+function shoesSliderData() {
+    fetch("http://localhost:3000/shoes").then((res) => res.json())
+        .then((data) => shoesSliderCardList(data))
+        .catch((error) => console.log(error))
+}
+shoesSliderData()
+
+function shoesSliderCard(image) {
+    let div = `
+            <div class="shoes-img">
+                <img src="${image}" alt="">
+            </div>
     `
     return div
 }
 
-function BrandsCardList(data){
-    let brandStore = data.map((e)=>{
-        return BrandsCard(e.title,e.image,e.image1,e.image2,e.image3,e.image4,e.description1,e.description2,e.description3,e.description4,e.price1,e.price2,e.price3,e.price4)
+function shoesSliderCardList(data) {
+    let shoesSliderstore = data.map((e) => {
+        return shoesSliderCard(e.image)
     })
-    document.querySelector("#brands").innerHTML = brandStore.join("")
+    document.querySelector(".shoes-slider").innerHTML = shoesSliderstore.join("")
 }
