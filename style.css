@@ -919,84 +919,124 @@ table tr td a {
     font-weight: 500;
     background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
 }
+
 .btn-grad:hover {
     background-position: right center;
     /* change the direction of the change here */
     color: #000;
     text-decoration: none;
 }
+
 .navFooterBackToTop {
     background-color: #111;
     padding: 10px 0px;
     text-align: center;
 }
-.navFooterBackToTopText{
+
+.navFooterBackToTopText {
     color: #fff;
 }
-#descrption{
-    padding: 30px 0px;
+
+#descrption {
+    padding: 30px 0px 0px 0px;
     background-color: #232F3E;
-}   
-.descriptionTable{
+}
+
+.descriptionTable {
     width: 70%;
     margin: auto;
     color: #fff;
 }
-.table-head{
+
+.table-head {
     font-weight: 500;
     font-size: 18px;
 }
-.table-body{
+
+.table-body {
     font-size: 14px;
     color: #DDD;
 }
-.footerLine{
+
+.footerLine {
     background-color: #DDD;
     margin: 50px 0px 5px 0px;
 }
-.footerLogo{
+
+.footerLogo {
     width: 100px;
 }
-.footerLogo img{
+
+.footerLogo img {
     width: 100%;
 }
-.footer-english{
+
+.footer-english {
     border: 1px solid #DDD;
     padding: 5px 10px;
     position: relative;
 }
-.sub-language-footer{
+
+.sub-language-footer {
     display: none;
     background-color: #fff;
-    width: 15%;
+    /* width: 15%; */
     /* height: 30vh; */
     border-radius: 5px;
     position: absolute;
     /* margin-top: 20px; */
     /* top: 0%; */
 }
-.sub-language-footer li{
-    padding: 7px 20px;
+
+.sub-language-footer li {
+    padding: 2px 20px;
 }
-.sub-language-footer li a{
+
+.sub-language-footer li a {
     color: #000;
+    font-size: 14px;
 }
-.india{
+
+.india {
     border: 1px solid #DDD;
     padding: 5px 35px;
     color: #FFF;
     text-decoration: none;
 }
-.sub-footer{
+
+.sub-footer {
     display: flex;
     align-items: center;
     width: 30%;
     margin: auto;
     justify-content: space-evenly;
 }
-.language:hover .sub-language-footer{
+
+.language:hover .sub-language-footer {
     display: block;
 }
-.lastFooter{
+
+.lastFooter {
     background-color: #131A22;
+    margin: 50px 0px 0px 0px;
+    padding: 20px 0px;
+}
+
+.lastFooter table {
+    color: white;
+}
+
+.lastFooter table tr td {
+    font-size: 12px;
+}
+
+.lastTable {
+    /* background-color: red; */
+    margin: auto;
+    width: 70%;
+    border-spacing: 30px;
+}
+
+.lastTable th,tr{
+    padding: 5px;
 }
