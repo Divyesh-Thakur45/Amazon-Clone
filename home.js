@@ -1,16 +1,24 @@
-let right = document.querySelector(".right-side")
-let slider = document.querySelector(".sub-slider")
-let left = document.querySelector(".left-side")
+let right = document.querySelector(".right-side");
+let slider = document.querySelector(".sub-slider");
+let left = document.querySelector(".left-side");
+
+function getScrollAmount() {
+    const slideWidth = slider.querySelector("img").clientWidth;
+    return slideWidth;
+}
 
 right.addEventListener("click", () => {
-    slider.style.scrollBehavior = "smooth"
-    slider.scrollLeft += 1520
+    slider.scrollLeft += getScrollAmount();
+});
 
-})
 left.addEventListener("click", () => {
-    slider.style.scrollBehavior = "smooth"
-    slider.scrollLeft -= 1520
-})
+    slider.scrollLeft -= getScrollAmount();
+});
+
+window.addEventListener('resize', () => {
+    // Optional: Adjustments on resize if needed
+});
+
 
 function fetchData() {
     fetch("http://localhost:3000/data")
@@ -19,7 +27,7 @@ function fetchData() {
         .catch((error) => console.log(error))
 }
 fetchData()
-function card(image1, image2, image3, image4, title1, title2, title3, title4,title) {
+function card(image1, image2, image3, image4, title1, title2, title3, title4, title) {
     let div = `
     <div class="box">
         <h4>${title}</h4>
@@ -51,7 +59,7 @@ function card(image1, image2, image3, image4, title1, title2, title3, title4,tit
 
 function boxes(data) {
     let store = data.map((el) => {
-        return card(el.image1, el.image2, el.image3, el.image4, el.title1, el.title2, el.title3, el.title4,el.title)
+        return card(el.image1, el.image2, el.image3, el.image4, el.title1, el.title2, el.title3, el.title4, el.title)
     })
     document.querySelector(".sales").innerHTML = store.join("")
 }
@@ -89,19 +97,20 @@ function mobileCardList(mobileDetail) {
     document.querySelector(".mobile-slider").innerHTML = mobileBox.join("")
 }
 
-let rightside = document.querySelector(".RightArrow1")
-let mobileSlider = document.querySelector(".mobile-slider")
-let leftside = document.querySelector(".leftArrow1")
+let rightside = document.querySelector(".RightArrow1");
+let mobileSlider = document.querySelector(".mobile-slider");
+let leftside = document.querySelector(".leftArrow1");
 
 rightside.addEventListener("click", () => {
-    mobileSlider.style.scrollBehavior = "smooth"
-    mobileSlider.scrollLeft += 1000
+    mobileSlider.style.scrollBehavior = "smooth";
+    mobileSlider.scrollLeft += mobileSlider.clientWidth;
+});
 
-})
 leftside.addEventListener("click", () => {
-    mobileSlider.style.scrollBehavior = "smooth"
-    mobileSlider.scrollLeft -= 1000
-})
+    mobileSlider.style.scrollBehavior = "smooth";
+    mobileSlider.scrollLeft -= mobileSlider.clientWidth;
+});
+
 
 
 function thirdSliderData() {
@@ -125,19 +134,20 @@ function slideimagess(data) {
     document.querySelector(".sport-slider").innerHTML = store.join("")
 }
 
-let leftArrow2 = document.querySelector(".leftArrow2")
-let sportSlider = document.querySelector(".sport-slider")
-let RightArrow2 = document.querySelector(".RightArrow2")
+let leftArrow2 = document.querySelector(".leftArrow2");
+let sportSlider = document.querySelector(".sport-slider");
+let RightArrow2 = document.querySelector(".RightArrow2");
 
 RightArrow2.addEventListener("click", () => {
     sportSlider.style.scrollBehavior = "smooth"
-    sportSlider.scrollLeft += 1520
+    sportSlider.scrollLeft += sportSlider.clientWidth;
+});
 
-})
 leftArrow2.addEventListener("click", () => {
     sportSlider.style.scrollBehavior = "smooth"
-    sportSlider.scrollLeft -= 1520
-})
+    sportSlider.scrollLeft -= sportSlider.clientWidth;
+});
+
 
 
 function fourthSlider() {
@@ -163,20 +173,19 @@ function fourthcardList(data) {
     document.querySelector(".product-slider").innerHTML = store.join("")
 }
 
-let RightArrow3 = document.querySelector(".RightArrow3")
-let productSlider = document.querySelector(".product-slider")
-let leftArrow3 = document.querySelector(".leftArrow3")
+let leftArrow3 = document.querySelector(".leftArrow3");
+let productSlider = document.querySelector(".product-slider");
+let RightArrow3 = document.querySelector(".RightArrow3");
 
 RightArrow3.addEventListener("click", () => {
     productSlider.style.scrollBehavior = "smooth"
-    productSlider.scrollLeft += 1000
+    productSlider.scrollLeft += productSlider.clientWidth;
+});
 
-})
 leftArrow3.addEventListener("click", () => {
     productSlider.style.scrollBehavior = "smooth"
-    productSlider.scrollLeft -= 1000
-})
-
+    productSlider.scrollLeft -= productSlider.clientWidth;
+});
 
 
 function shoppingData() {
@@ -187,7 +196,7 @@ function shoppingData() {
 }
 shoppingData()
 
-function shoppingCard(title,image1,description,price,mrp,image2,image3,image4,image5) {
+function shoppingCard(title, image1, description, price, mrp, image2, image3, image4, image5) {
     let div = `
     <div class="shoppingBox">
         <h6>${title}</h6>
@@ -210,9 +219,9 @@ function shoppingCard(title,image1,description,price,mrp,image2,image3,image4,im
     return div
 }
 
-function shoppingCardList(data){
-    let shoppingStore = data.map((e)=>{
-        return shoppingCard(e.title,e.image1,e.description,e.price,e.mrp,e.image2,e.image3,e.image4,e.image5)
+function shoppingCardList(data) {
+    let shoppingStore = data.map((e) => {
+        return shoppingCard(e.title, e.image1, e.description, e.price, e.mrp, e.image2, e.image3, e.image4, e.image5)
     })
     document.querySelector(".shoppingMainBox").innerHTML = shoppingStore.join("")
 }
@@ -307,7 +316,7 @@ function multipleData() {
 }
 multipleData();
 
-function multipleDataCard(title, image1,image2,image3,image4,description1,description2,description3,description4,price1,price2,price3,price4) {
+function multipleDataCard(title, image1, image2, image3, image4, description1, description2, description3, description4, price1, price2, price3, price4) {
     return `
     <div class="Brandbox">
         <h4>${title}</h4>
@@ -357,7 +366,7 @@ function multipleDataCard(title, image1,image2,image3,image4,description1,descri
 }
 
 function multipleDataCardList(data) {
-    const store = data.map((e) => multipleDataCard(e.title,e. image1,e.image2,e.image3,e.image4,e.description1,e.description2,e.description3,e.description4,e.price1,e.price2,e.price3,e.price4));
+    const store = data.map((e) => multipleDataCard(e.title, e.image1, e.image2, e.image3, e.image4, e.description1, e.description2, e.description3, e.description4, e.price1, e.price2, e.price3, e.price4));
     document.querySelector("#right-brand").innerHTML = store.join("");
 }
 

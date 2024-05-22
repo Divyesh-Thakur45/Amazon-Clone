@@ -44,6 +44,14 @@
     padding: 5px 15px;
 }
 
+.threeDots {
+    display: none;
+}
+
+.signupIcone {
+    display: none;
+}
+
 .logo {
     color: #fff;
 }
@@ -233,26 +241,38 @@ table tr td a {
 
 #slider {
     background-color: #e3e6e6;
-    height: 150vh;
+    height: 160vh;
     /* margin: 0px 0px 120px 0px; */
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 .slider {
-    width: 100%;
-    margin: auto;
+    /* width: 100%;
+    margin: auto; */
     position: absolute;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
 }
 
 .sub-slider {
-    width: 100%;
+    /* width: 100%;
     overflow: hidden;
+    display: flex; */
     display: flex;
-
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 .sub-slider img {
-    width: 1520px;
-    height: 100%;
+    /* width: 1520px;
+    height: 100%; */
+    width: 100%;
+    max-width: 100%;
+    flex-shrink: 0;
 }
 
 .left-side {
@@ -291,7 +311,6 @@ table tr td a {
     grid-template-columns: repeat(4, 1fr);
     width: 99%;
     margin: auto;
-    ;
 }
 
 .box {
@@ -365,7 +384,7 @@ table tr td a {
 .mobile-slider {
     position: relative;
     overflow: auto;
-    width: 95%;
+    width: 90%;
     margin: auto;
     display: flex;
 }
@@ -381,6 +400,7 @@ table tr td a {
     width: 45px;
     text-align: center;
     box-shadow: 0 1px 3px #888;
+    z-index: 10;
 }
 
 .RightArrow1 {
@@ -394,6 +414,7 @@ table tr td a {
     width: 45px;
     text-align: center;
     box-shadow: 0 1px 3px #888;
+    z-index: 10;
 }
 
 .m1 {
@@ -449,11 +470,15 @@ table tr td a {
     margin: 2% 1%;
     background-color: #fff;
     padding: 10px 5px 25px 5px;
+    width: 98%;
+    overflow: hidden;
 }
 
 .thirdSliderHead {
     display: flex;
-    margin: 5px 80px;
+    /* margin: 5px 80px; */
+    justify-content: space-between;
+    margin-bottom: 10px;
     align-items: center;
 }
 
@@ -463,13 +488,22 @@ table tr td a {
 }
 
 .sport-slider {
-    display: flex;
-    width: 90%;
+    /* display: flex;
+    
     margin: auto;
     overflow: auto;
+    
+    position: relative; */
+    width: 90%;
     gap: 40px;
-    position: relative;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    /* width: calc(100% - 80px); Adjust width considering arrow buttons */
+    margin: auto;
 }
+
 
 .leftArrow2 {
     left: 2%;
@@ -482,9 +516,11 @@ table tr td a {
     width: 45px;
     text-align: center;
     box-shadow: 0 1px 3px #888;
+    user-select: none;
 }
 
 .RightArrow2 {
+    user-select: none;
     right: 2%;
     bottom: 33%;
     position: absolute;
@@ -507,6 +543,7 @@ table tr td a {
 
 .FourthSlider-head {
     display: flex;
+    /* justify-content: space-between; */
     margin: 5px 80px;
     align-items: center;
 }
@@ -523,7 +560,12 @@ table tr td a {
     overflow: auto;
     gap: 20px;
 }
-
+.sub-forth-slider{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
 .leftArrow3 {
     left: 2%;
     top: 33%;
@@ -626,6 +668,7 @@ table tr td a {
 .leftArrow4 {
     left: 2%;
     top: 33%;
+    z-index: 10;
     position: absolute;
     font-size: 40px;
     background-color: #fff;
@@ -639,6 +682,7 @@ table tr td a {
 .RightArrow4 {
     right: 2%;
     bottom: 33%;
+    z-index: 10;
     position: absolute;
     font-size: 40px;
     background-color: #fff;
@@ -1037,6 +1081,7 @@ table tr td a {
     border-spacing: 30px;
 }
 
-.lastTable th,tr{
+.lastTable th,
+tr {
     padding: 5px;
 }
