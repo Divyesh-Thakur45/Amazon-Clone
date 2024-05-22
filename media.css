@@ -164,6 +164,7 @@
 
     .sport-slider {
         width: 50%;
+        gap: 10px;
     }
     .leftArrow2 , .RightArrow2{
         top: 40%;
@@ -172,6 +173,13 @@
     #FourthSlider{
         width: 90%;
         margin: 5% auto;
+    }
+    .product-slider {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        overflow: auto;
+        gap: 10px;
     }
     .FourthSlider-head {
         display: flex;
@@ -182,13 +190,9 @@
     }
 
     .product-img img {
-        width: 220px;
+        width: 200px;
         height: 150px;
-        margin: 0px 0px 0px 12px;
-        
-    }
-    .product-slider{
-        padding: 0px 10px;
+        margin: 0px 0px 0px 0px;
     }
     .leftArrow3 , .RightArrow3{
         top: 40%;
@@ -212,5 +216,153 @@
     .FifthSlider-head{
         display: flex;
         flex-direction: column;
+    }
+    .decoration-slider {
+        width: 50%;
+        gap: 20px;
+    }
+    #shoesBrand{
+        display: flex;
+        flex-direction: column;
+    }
+    .puma, .pumaShoes {
+        width: 100%;
+        text-align: center;
+    }
+
+    .shoesBrandContent {
+        text-align: center;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .shoesMrp {
+        justify-content: center;
+    }
+    #brands{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #left-brand {
+        /* background-color: red; */
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        /* height: auto; */
+    }
+    #right-brand {
+        /* background-color: green; */
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+    .Brandbox{
+        margin: 5% auto;
+    }
+    .Brandbox a{
+        bottom: 0%;
+    }
+    #shoesSlider{
+        width: 90%;
+        margin: auto;
+    }
+    .shoesSlider-head{
+        flex-direction: column;
+    }
+    .shoes-slider{
+        width: 50%;
+    }
+    .custumer {
+        /* background-color: red; */
+        width: 90%;
+    }
+    .descriptionTable, .descriptionTable tr, .descriptionTable td {
+        display: block;
+        width: 100%;
+    }
+
+    .descriptionTable tr.table-head {
+        display: none;
+    }
+
+    .descriptionTable td {
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .descriptionTable td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+    }
+
+    .sub-footer, .lastFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-footer .footerLogo img {
+        max-width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .sub-footer .language ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .sub-footer .language ul li a {
+        padding: 5px;
+        display: block;
+    }
+
+    .sub-footer .flag a {
+        padding: 5px;
+    }
+
+    .lastTable {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .lastTable td {
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+    }
+    .sub-footer, .lastFooter {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .footerLine {
+        border: 0;
+        height: 1px;
+        background: #ccc;
+        margin: 20px 0;
+    }
+    
+    .sub-language-footer {
+        display: none;
+    }
+    
+    .footer-english:hover .sub-language-footer {
+        display: block;
+        position: absolute;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    
+    .language {
+        position: relative;
+    }
+    
+    .flag a {
+        display: block;
+        padding: 5px;
     }
 }

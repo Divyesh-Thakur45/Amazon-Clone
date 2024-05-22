@@ -503,7 +503,9 @@ table tr td a {
     /* width: calc(100% - 80px); Adjust width considering arrow buttons */
     margin: auto;
 }
-
+.sport-slider img{
+    width: 200px;
+}
 
 .leftArrow2 {
     left: 2%;
@@ -814,7 +816,7 @@ table tr td a {
     /* padding: 10px 5px; */
     margin: 20px 10px;
     background-color: #FFF;
-    overflow: auto;
+    /* overflow: auto; */
     padding: 20px 10px;
     position: relative;
     /* bottom: 90%; */
@@ -827,7 +829,7 @@ table tr td a {
 }
 
 .brand-box-bigimg {
-    height: 20vh;
+    height: auto;
 }
 
 .brand-box-bigimg img {
@@ -894,6 +896,7 @@ table tr td a {
     height: 100px;
     line-height: 100px;
     width: 45px;
+    z-index: 10;
     text-align: center;
     box-shadow: 0 1px 3px #888;
 }
@@ -905,6 +908,7 @@ table tr td a {
     font-size: 40px;
     background-color: #fff;
     height: 100px;
+    z-index: 10;
     line-height: 100px;
     width: 45px;
     text-align: center;
@@ -925,6 +929,9 @@ table tr td a {
     align-items: center;
 }
 
+.shoes-img img{
+    width: 200px;
+}
 .shoesSlider-head a {
     text-decoration: none;
     margin: 0px 10px;

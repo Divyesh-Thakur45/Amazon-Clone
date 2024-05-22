@@ -16,6 +16,7 @@ left.addEventListener("click", () => {
 });
 
 window.addEventListener('resize', () => {
+    
     // Optional: Adjustments on resize if needed
 });
 
@@ -254,19 +255,36 @@ function FifthSliderCardList(data) {
     document.querySelector(".decoration-slider").innerHTML = FifthSliderstore.join("")
 }
 
-let leftArrow4 = document.querySelector(".leftArrow4")
-let decorationSlider = document.querySelector(".decoration-slider")
-let RightArrow4 = document.querySelector(".RightArrow4")
+let leftArrow4 = document.querySelector(".leftArrow4");
+let decorationSlider = document.querySelector(".decoration-slider");
+let RightArrow4 = document.querySelector(".RightArrow4");
+
+// Function to get scroll amount based on viewport width
+function getScrollAmount() {
+    if (window.innerWidth >= 1200) {
+        return 1000; // for large screens
+    } else if (window.innerWidth >= 768) {
+        return 500;  // for tabletss
+    } else {
+        return 300;  // for mobile devices
+    }
+}
 
 RightArrow4.addEventListener("click", () => {
-    decorationSlider.style.scrollBehavior = "smooth"
-    decorationSlider.scrollLeft += 1000
+    decorationSlider.style.scrollBehavior = "smooth";
+    decorationSlider.scrollLeft += getScrollAmount();
+});
 
-})
 leftArrow4.addEventListener("click", () => {
-    decorationSlider.style.scrollBehavior = "smooth"
-    decorationSlider.scrollLeft -= 1000
-})
+    decorationSlider.style.scrollBehavior = "smooth";
+    decorationSlider.scrollLeft -= getScrollAmount();
+});
+
+// Update scroll amount on window resize
+window.addEventListener("resize", () => {
+    // Optional: Adjust the scroll amount dynamically if needed
+});
+
 
 
 function singleData() {
@@ -371,19 +389,22 @@ function multipleDataCardList(data) {
 }
 
 
-let leftArrow5 = document.querySelector(".leftArrow5")
-let shoesSlider = document.querySelector(".shoes-slider")
-let RightArrow5 = document.querySelector(".RightArrow5")
+let leftArrow5 = document.querySelector(".leftArrow5");
+let shoesSlider = document.querySelector(".shoes-slider");
+let RightArrow5 = document.querySelector(".RightArrow5");
 
 RightArrow5.addEventListener("click", () => {
-    shoesSlider.style.scrollBehavior = "smooth"
-    shoesSlider.scrollLeft += 1000
+    let scrollAmount = window.innerWidth * 0.8; // Adjust 0.8 as needed
+    shoesSlider.style.scrollBehavior = "smooth";
+    shoesSlider.scrollLeft += scrollAmount;
+});
 
-})
 leftArrow5.addEventListener("click", () => {
-    shoesSlider.style.scrollBehavior = "smooth"
-    shoesSlider.scrollLeft -= 1000
-})
+    let scrollAmount = window.innerWidth * 0.8; // Adjust 0.8 as needed
+    shoesSlider.style.scrollBehavior = "smooth";
+    shoesSlider.scrollLeft -= scrollAmount;
+});
+
 
 
 function shoesSliderData() {
