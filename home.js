@@ -65,19 +65,19 @@ function fetchData() {
         .catch((error) => console.log(error))
 }
 fetchData()
-function card(image1, image2, image3, image4, title1, title2, title3, title4, title, ACInnerData) {
+function card(image1, image2, image3, image4, title1, title2, title3, title4, title) {
     let div = `
     <div class="box">
         <h4>${title}</h4>
         <div class="small-box">
             <div class="sub-box">
-            <a href="product.html?ACInnerData=${encodeURIComponent(ACInnerData)}">
+            <a href="product.html?image1=${encodeURIComponent(image1)}">
                 <img src="${image1}" alt="">
                 <p>${title1}</p>
             </a>
             </div>
             <div class="sub-box">
-            <a href="#">
+            <a href="product.html?image2=${encodeURIComponent(image2)}">
                 <img src="${image2}" alt="">
                 <p>${title2}</p>
             </a>
@@ -85,13 +85,13 @@ function card(image1, image2, image3, image4, title1, title2, title3, title4, ti
         </div>
         <div class="small-box">
             <div class="sub-box">
-            <a href="#">
+            <a href="product.html?image3=${encodeURIComponent(image3)}">
                 <img src="${image3}" alt="">
                 <p>${title3}</p>
             </a>
             </div>
             <div class="sub-box">
-            <a href="#">
+            <a href="product.html?image4=${encodeURIComponent(image4)}">
                 <img src="${image4}" alt="">
                 <p>${title4}</p>
             </a>
@@ -106,7 +106,7 @@ function card(image1, image2, image3, image4, title1, title2, title3, title4, ti
 
 function boxes(data) {
     let store = data.map((el) => {
-        return card(el.image1, el.image2, el.image3, el.image4, el.title1, el.title2, el.title3, el.title4, el.title, el.ACInnerData)
+        return card(el.image1, el.image2, el.image3, el.image4, el.title1, el.title2, el.title3, el.title4, el.title)
     })
     document.querySelector(".sales").innerHTML = store.join("")
 }
