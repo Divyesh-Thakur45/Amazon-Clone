@@ -1,25 +1,62 @@
-let right = document.querySelector(".right-side");
-let slider = document.querySelector(".sub-slider");
-let left = document.querySelector(".left-side");
+document.addEventListener('DOMContentLoaded', () => {
+    let right = document.querySelector(".right-side");
+    let slider = document.querySelector(".sub-slider");
+    let left = document.querySelector(".left-side");
 
-function getScrollAmount() {
-    const slideWidth = slider.querySelector("img").clientWidth;
-    return slideWidth;
+    if (!right || !slider || !left) {
+        console.error("Required elements are missing.");
+        return;
+    }
+
+    function getScrollAmount() {
+        const slide = slider.querySelector("img");
+        if (slide) {
+            return slide.clientWidth;
+        }
+        return 0; // Fallback if no images are found
+    }
+
+    right.addEventListener("click", () => {
+        const scrollAmount = getScrollAmount();
+        if (scrollAmount > 0) {
+            slider.scrollLeft += scrollAmount;
+        }
+    });
+
+    left.addEventListener("click", () => {
+        const scrollAmount = getScrollAmount();
+        if (scrollAmount > 0) {
+            slider.scrollLeft -= scrollAmount;
+        }
+    });
+
+    window.addEventListener('resize', () => {
+        // Optional: Adjustments on resize if needed
+        // For example, you might want to reset the scroll position or recalculate something
+    });
+});
+
+function bigSlider(){
+    fetch("http://localhost:3000/bigImg")
+    .then((res)=>res.json())
+    .then((data)=>bigSliderCardList(data))
+    .catch((error)=>console.log(error))
+}
+bigSlider()
+
+function bigSliderCard(image){
+    let div = `
+        <img src="${image}">
+    `
+    return div
 }
 
-right.addEventListener("click", () => {
-    slider.scrollLeft += getScrollAmount();
-});
-
-left.addEventListener("click", () => {
-    slider.scrollLeft -= getScrollAmount();
-});
-
-window.addEventListener('resize', () => {
-    
-    // Optional: Adjustments on resize if needed
-});
-
+function bigSliderCardList(data){
+    let store = data.map((e)=>{
+        return bigSliderCard(e.image)
+    })
+    document.querySelector(".sub-slider").innerHTML = store.join("")
+}
 
 function fetchData() {
     fetch("http://localhost:3000/data")
@@ -28,31 +65,40 @@ function fetchData() {
         .catch((error) => console.log(error))
 }
 fetchData()
-function card(image1, image2, image3, image4, title1, title2, title3, title4, title) {
+function card(image1, image2, image3, image4, title1, title2, title3, title4, title, ACInnerData) {
     let div = `
     <div class="box">
         <h4>${title}</h4>
         <div class="small-box">
             <div class="sub-box">
+            <a href="product.html?ACInnerData=${encodeURIComponent(ACInnerData)}">
                 <img src="${image1}" alt="">
                 <p>${title1}</p>
+            </a>
             </div>
             <div class="sub-box">
+            <a href="product.html">
                 <img src="${image2}" alt="">
                 <p>${title2}</p>
+            </a>
             </div>
+            
         </div>
         <div class="small-box">
             <div class="sub-box">
+            <a href="product.html">
                 <img src="${image3}" alt="">
                 <p>${title3}</p>
+            </a>
             </div>
             <div class="sub-box">
+            <a href="product.html">
                 <img src="${image4}" alt="">
                 <p>${title4}</p>
+            </a>
             </div>
         </div>
-        <a href="#">See All</a>
+        <a href="#" class="seeAll">See All</a>
     </div>
     `
     return div
@@ -60,7 +106,7 @@ function card(image1, image2, image3, image4, title1, title2, title3, title4, ti
 
 function boxes(data) {
     let store = data.map((el) => {
-        return card(el.image1, el.image2, el.image3, el.image4, el.title1, el.title2, el.title3, el.title4, el.title)
+        return card(el.image1, el.image2, el.image3, el.image4, el.title1, el.title2, el.title3, el.title4, el.title,el.ACInnerData)
     })
     document.querySelector(".sales").innerHTML = store.join("")
 }

@@ -331,7 +331,7 @@ table tr td a {
     margin: 0px 0px 10px 2px;
 }
 
-.box a {
+.box .seeAll {
     text-decoration: none;
     position: absolute;
     bottom: 2%;
@@ -342,7 +342,9 @@ table tr td a {
     justify-content: space-around;
     /* background-color: #fff; */
 }
-
+.sub-box a{
+    text-decoration: none;
+}
 .sub-box img {
     width: 163px;
 }
@@ -1091,4 +1093,18 @@ table tr td a {
 .lastTable th,
 tr {
     padding: 5px;
+}
+
+
+
+
+
+/* product.html #2nd page  */
+.product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sameProduct{
+    background-color: wheat;
+    margin: 10px;
 }
