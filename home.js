@@ -77,22 +77,21 @@ function card(image1, image2, image3, image4, title1, title2, title3, title4, ti
             </a>
             </div>
             <div class="sub-box">
-            <a href="product.html">
+            <a href="#">
                 <img src="${image2}" alt="">
                 <p>${title2}</p>
             </a>
             </div>
-            
         </div>
         <div class="small-box">
             <div class="sub-box">
-            <a href="product.html">
+            <a href="#">
                 <img src="${image3}" alt="">
                 <p>${title3}</p>
             </a>
             </div>
             <div class="sub-box">
-            <a href="product.html">
+            <a href="#">
                 <img src="${image4}" alt="">
                 <p>${title4}</p>
             </a>
@@ -101,12 +100,13 @@ function card(image1, image2, image3, image4, title1, title2, title3, title4, ti
         <a href="#" class="seeAll">See All</a>
     </div>
     `
+    
     return div
 }
 
 function boxes(data) {
     let store = data.map((el) => {
-        return card(el.image1, el.image2, el.image3, el.image4, el.title1, el.title2, el.title3, el.title4, el.title,el.ACInnerData)
+        return card(el.image1, el.image2, el.image3, el.image4, el.title1, el.title2, el.title3, el.title4, el.title, el.ACInnerData)
     })
     document.querySelector(".sales").innerHTML = store.join("")
 }
