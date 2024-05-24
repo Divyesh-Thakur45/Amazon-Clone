@@ -1199,3 +1199,39 @@ tr {
     font-size: 13px;
     background-color: #fa8900;
 }
+
+
+
+/* Electronic Page #3rd Page  */
+/* .subElectronic{ */
+    /* background-color: red; */
+    /* background-color: #fff; */
+    
+/* } */
+.electronicImg{
+    width: 20%;
+    /* background-color: yellow; */
+}
+.electronicImg img{
+    width: 100%;
+}
+.subElectronic {
+    width: 20%;
+    background-color: #fff;
+    color: #000; /* Setting the base text color */
+    border-radius: 8px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    overflow: hidden; /* Optional: to handle content overflow */
+    padding: 20px; /* Optional: for spacing inside the card */
+    margin: 20px; /* Optional: for spacing outside the card */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.subElectronic:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.electronicBody {
+    /* z-index: 10; */
+    color: #000; /* Ensuring the text inside the card is white */
+}

@@ -121,91 +121,584 @@
             "discount": "Up to 31% off",
             "title": "Redmi 12 5g (Starting from 9999/- inclduing additional offers)",
             "price": "₹19,499.00",
-            "mrp": "₹21,000.00"
+            "mrp": "₹21,000.00",
+            
+                "subSlider": [
+                    {
+                        "image": "img/redmi1.jpg",
+                        "discount": "23% off",
+                        "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                        "price": "₹9,999.00",
+                        "mrp": "₹12,999.00"
+                    },
+                    {
+                        "image": "img/redmi2.jpg",
+                        "discount": "23% off",
+                        "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                        "price": "₹9,999.00",
+                        "mrp": "₹12,999.00"
+                    },
+                    {
+                        "image": "img/redmi3.jpg",
+                        "discount": "23% off",
+                        "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                        "price": "₹9,999.00",
+                        "mrp": "₹12,999.00"
+                    },
+                    {
+                        "image": "img/redmi4.jpg",
+                        "discount": "23% off",
+                        "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                        "price": "₹9,999.00",
+                        "mrp": "₹12,999.00"
+                    },
+                    {
+                        "image": "img/redmi5.jpg",
+                        "discount": "23% off",
+                        "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                        "price": "₹9,999.00",
+                        "mrp": "₹12,999.00"
+                    }
+                ]
+            
         },
         {
             "image": "https://m.media-amazon.com/images/I/41888-BWxKL._AC_SY200_.jpg",
             "discount": "36% off",
             "title": "POCO M6 pro (Starting from 8999/- inclduing additional offers)",
             "price": "₹11,499.00",
-            "mrp": "₹17,999.00"
+            "mrp": "₹17,999.00",  "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41m-C1HHkIL._AC_SY200_.jpg",
             "discount": "Up to 13% off",
             "title": "iQOO Neo9 Pro | Starting @32999 Including add. offers",
             "price": "₹15,499.00",
-            "mrp": "₹16,499.00"
+            "mrp": "₹16,499.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41WnWm3IjiL._AC_SY200_.jpg",
             "discount": "Up to 20% off",
             "title": "iQOO Z9 5G | Starting @17999 Including add. Offers",
             "price": "₹21,499.00",
-            "mrp": "₹23,499.00"
+            "mrp": "₹23,499.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41Q+oC53k+L._AC_SY200_.jpg",
             "discount": "Up to 31% off",
             "title": "Redmi 12 5g (Starting from 9999/- inclduing additional offers)",
             "price": "₹13,999.00",
-            "mrp": "₹16,999.00"
+            "mrp": "₹16,999.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41yAce7gd4L._AC_SY200_.jpg",
             "discount": "11% off",
             "title": "iQOO Z7 Pro | Starting @20999 Including add. Offers",
             "price": "₹8,799.00",
-            "mrp": "₹9,499.00"
+            "mrp": "₹9,499.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/411gvmvNQzL._AC_SY200_.jpg",
             "discount": "Up to 12% off",
             "title": "iQOO 12 5G | Starting @49999 Including add. Offers",
             "price": "₹10,499.00",
-            "mrp": "₹11,499.00"
+            "mrp": "₹11,499.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/4105IiC5tDL._AC_SY200_.jpg",
             "discount": "40% off",
             "title": "iQOO Z6 Lite | Starting @10999 Including add. Offers",
             "price": "₹11,999.00",
-            "mrp": "₹19,999.00"
+            "mrp": "₹19,999.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41Q2VNtEPJL._AC_SY200_.jpg",
             "discount": "Up to 14% off",
             "title": "Redmi note 13 pro (Starting from 21999/- inclduing additional offers)",
             "price": "₹9,499.00",
-            "mrp": "₹10,499.00"
+            "mrp": "₹10,499.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/4180tJsogaL._AC_SY200_.jpg",
             "discount": "Up to 39% off",
             "title": "Redmi 13c (Starting from 7699/- inclduing additional offers)",
             "price": "₹12,000.00",
-            "mrp": "₹15,499.00"
+            "mrp": "₹15,499.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/31lG2Ky6TIL._AC_SY200_.jpg",
             "discount": "Up to 9% off",
             "title": "Redmi note 13 pro + (Starting from 27999/- inclduing additional offers)",
             "price": "₹10,000.00",
-            "mrp": "₹11,499.00"
+            "mrp": "₹11,499.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41U0KBNRk5L._AC_SY200_.jpg",
             "discount": "35% off",
             "title": "Lava Agni 2 Available at Rs. 16,999",
             "price": "₹16,999.00",
-            "mrp": "₹25,999.00"
+            "mrp": "₹25,999.00",  "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41Mje26R9-L._AC_SY200_.jpg",
             "discount": "23% off",
             "title": "Nokia G42 5G Snapdragon smartphone at ₹9999",
             "price": "₹9,999.00",
-            "mrp": "₹12,999.00"
+            "mrp": "₹12,999.00",
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                }
+            ]
+        
         }
     ],
     "sports": [

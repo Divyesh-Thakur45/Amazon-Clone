@@ -36,23 +36,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-function bigSlider(){
+function bigSlider() {
     fetch("http://localhost:3000/bigImg")
-    .then((res)=>res.json())
-    .then((data)=>bigSliderCardList(data))
-    .catch((error)=>console.log(error))
+        .then((res) => res.json())
+        .then((data) => bigSliderCardList(data))
+        .catch((error) => console.log(error))
 }
 bigSlider()
 
-function bigSliderCard(image){
+function bigSliderCard(image) {
     let div = `
         <img src="${image}">
     `
     return div
 }
 
-function bigSliderCardList(data){
-    let store = data.map((e)=>{
+function bigSliderCardList(data) {
+    let store = data.map((e) => {
         return bigSliderCard(e.image)
     })
     document.querySelector(".sub-slider").innerHTML = store.join("")
@@ -100,7 +100,7 @@ function card(image1, image2, image3, image4, title1, title2, title3, title4, ti
         <a href="#" class="seeAll">See All</a>
     </div>
     `
-    
+
     return div
 }
 
@@ -121,12 +121,18 @@ function mobileData() {
 }
 mobileData()
 
-function mobileCard(image, discount, title, price, mrp) {
+function mobileCard(image, discount, title, price, mrp, subSlider) {
+    console.log(subSlider)
     let div = `
     <div class="m1">
+    <a href="Electronic.html?subSlider=${encodeURIComponent(JSON.stringify(subSlider))}">
+
+
+
         <div class="img-card">  
             <img src="${image}" alt="">
         </div>
+    </a>
         <div class="mobile-body">
             <p class="discountPara"><span class="discount">${discount}</span> Limited time deal</p>
             <p class="price">${price} <span class="mrp">M.R.P. : <del class="mrp">${mrp}</del></span></p>
@@ -139,7 +145,7 @@ function mobileCard(image, discount, title, price, mrp) {
 
 function mobileCardList(mobileDetail) {
     let mobileBox = mobileDetail.map((el) => {
-        return mobileCard(el.image, el.discount, el.title, el.price, el.mrp)
+        return mobileCard(el.image, el.discount, el.title, el.price, el.mrp, el.subSlider)
     })
     document.querySelector(".mobile-slider").innerHTML = mobileBox.join("")
 }
