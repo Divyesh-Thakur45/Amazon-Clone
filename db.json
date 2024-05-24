@@ -1014,39 +1014,84 @@
             "mrp": "₹11,499.00",
             "subSlider": [
                 {
-                    "image": "img/redmi1.jpg",
+                    "image": "img/redmi11.jpg",
                     "discount": "23% off",
                     "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
                     "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "mrp": "₹12,999.00",
+                    "description": "6.67-inch FHD+ AMOLED display, Snapdragon 870 processor, 64MP quad camera, 5000mAh battery, 5G support."
                 },
                 {
-                    "image": "img/redmi2.jpg",
+                    "image": "img/redmi12.jpg",
                     "discount": "23% off",
                     "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
                     "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "mrp": "₹12,999.00",
+                    "description": "6.6-inch FHD+ DotDisplay, MediaTek Dimensity 810 processor, 50MP dual camera, 5000mAh battery, 5G connectivity."
                 },
                 {
-                    "image": "img/redmi3.jpg",
+                    "image": "img/redmi13.jpg",
                     "discount": "23% off",
                     "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
                     "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "mrp": "₹12,999.00",
+                    "description": "6.67-inch Super AMOLED display, Snapdragon 732G processor, 108MP quad camera, 5020mAh battery, 120Hz refresh rate."
                 },
                 {
-                    "image": "img/redmi4.jpg",
+                    "image": "img/redmi14.jpg",
                     "discount": "23% off",
                     "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
                     "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "mrp": "₹12,999.00",
+                    "description": "6.5-inch FHD+ display, MediaTek Helio G88 processor, 50MP quad camera, 6000mAh battery, 90Hz refresh rate."
                 },
                 {
-                    "image": "img/redmi5.jpg",
+                    "image": "img/redmi15.jpg",
                     "discount": "23% off",
                     "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
                     "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "mrp": "₹12,999.00",
+                    "description": "6.67-inch FHD+ DotDisplay, Snapdragon 720G processor, 48MP quad camera, 5020mAh battery, 18W fast charging."
+                },
+                {
+                    "image": "img/redmi16.jpg",
+                    "title": "Redmi 9A Sport",
+                    "price": "₹7,499",
+                    "mrp": "₹8,999",
+                    "discount": "17%",
+                    "description": "6.53-inch HD+ display, MediaTek Helio G25 processor, 13MP rear camera, 5000mAh battery, splash-proof design."
+                },
+                {
+                    "image": "img/redmi17.jpg",
+                    "title": "Redmi K40 Pro",
+                    "price": "₹11,999",
+                    "mrp": "₹13,999",
+                    "discount": "14%",
+                    "description": "6.43-inch FHD+ AMOLED display, MediaTek Helio G95 processor, 64MP quad camera, 5000mAh battery, 33W fast charging."
+                },
+                {
+                    "image": "img/redmi18.jpg",
+                    "title": "Redmi Note 8 2021",
+                    "price": "₹10,999",
+                    "mrp": "₹12,999",
+                    "discount": "15%",
+                    "description": "6.53-inch FHD+ display, Snapdragon 662 processor, 48MP quad camera, 6000mAh battery, stereo speakers."
+                },
+                {
+                    "image": "img/redmi19.jpg",
+                    "title": "Redmi 9 Power",
+                    "price": "₹13,999",
+                    "mrp": "₹15,999",
+                    "discount": "13%",
+                    "description": "6.22-inch HD+ display, Snapdragon 439 processor, 12MP dual camera, 5000mAh battery, AI face unlock."
+                },
+                {
+                    "image": "img/redmi20.jpg",
+                    "title": "Redmi Note 7 Pro",
+                    "price": "₹18,999",
+                    "mrp": "₹21,999",
+                    "discount": "14%",
+                    "description": "6.39-inch FHD+ AMOLED display, Snapdragon 855 processor, 48MP triple camera, 4000mAh battery, in-display fingerprint sensor."
                 }
             ]
         },
