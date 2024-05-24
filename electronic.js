@@ -6,9 +6,9 @@ let phone = subslider.map((el) => `
         <img src="${el.image}" alt="">
     </div>
     <div class="electronicBody">
-        <h3> Redmi 12 5G Jade Black 6GB RAM 128GB ROM</h3>
-        <div class="phoneDiscount">23% off</div>
-        <span >₹9,999.00</span><span>M.R.P : <del>₹12,999.00</del></span>
+        <h3> ${el.title}</h3>
+        <div class="phoneDiscount">${el.discount}</div>
+        <span> ${el.price}</span><span>M.R.P : <del>${el.mrp}</del></span>
     </div>
 `);
 document.querySelector(".subElectronic").innerHTML = phone.join("")

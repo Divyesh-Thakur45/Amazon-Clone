@@ -122,52 +122,86 @@
             "title": "Redmi 12 5g (Starting from 9999/- inclduing additional offers)",
             "price": "₹19,499.00",
             "mrp": "₹21,000.00",
-            
-                "subSlider": [
-                    {
-                        "image": "img/redmi1.jpg",
-                        "discount": "23% off",
-                        "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-                        "price": "₹9,999.00",
-                        "mrp": "₹12,999.00"
-                    },
-                    {
-                        "image": "img/redmi2.jpg",
-                        "discount": "23% off",
-                        "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
-                        "price": "₹9,999.00",
-                        "mrp": "₹12,999.00"
-                    },
-                    {
-                        "image": "img/redmi3.jpg",
-                        "discount": "23% off",
-                        "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-                        "price": "₹9,999.00",
-                        "mrp": "₹12,999.00"
-                    },
-                    {
-                        "image": "img/redmi4.jpg",
-                        "discount": "23% off",
-                        "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-                        "price": "₹9,999.00",
-                        "mrp": "₹12,999.00"
-                    },
-                    {
-                        "image": "img/redmi5.jpg",
-                        "discount": "23% off",
-                        "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-                        "price": "₹9,999.00",
-                        "mrp": "₹12,999.00"
-                    }
-                ]
-            
+            "subSlider": [
+                {
+                    "image": "img/redmi1.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi2.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi3.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi4.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi5.jpg",
+                    "discount": "23% off",
+                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+                    "price": "₹9,999.00",
+                    "mrp": "₹12,999.00"
+                },
+                {
+                    "image": "img/redmi6.jpg",
+                    "title": "Redmi 9A Sport",
+                    "price": "₹7,499",
+                    "mrp": "₹8,999",
+                    "discount": "17%"
+                },
+                {
+                    "image": "img/redmi7.jpg",
+                    "title": "Redmi K40 Pro",
+                    "price": "₹11,999",
+                    "mrp": "₹13,999",
+                    "discount": "14%"
+                },
+                {
+                    "image": "img/redmi8.jpg",
+                    "title": "Redmi Note 8 2021",
+                    "price": "₹10,999",
+                    "mrp": "₹12,999",
+                    "discount": "15%"
+                },
+                {
+                    "image": "img/redmi9.jpg",
+                    "title": "Redmi 9 Power",
+                    "price": "₹13,999",
+                    "mrp": "₹15,999",
+                    "discount": "13%"
+                },
+                {
+                    "image": "img/redmi10.jpg",
+                    "title": "Redmi Note 7 Pro",
+                    "price": "₹18,999",
+                    "mrp": "₹21,999",
+                    "discount": "14%"
+                }
+            ]
         },
         {
             "image": "https://m.media-amazon.com/images/I/41888-BWxKL._AC_SY200_.jpg",
             "discount": "36% off",
             "title": "POCO M6 pro (Starting from 8999/- inclduing additional offers)",
             "price": "₹11,499.00",
-            "mrp": "₹17,999.00",  "subSlider": [
+            "mrp": "₹17,999.00",
+            "subSlider": [
                 {
                     "image": "img/redmi1.jpg",
                     "discount": "23% off",
@@ -204,7 +238,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41m-C1HHkIL._AC_SY200_.jpg",
@@ -249,7 +282,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41WnWm3IjiL._AC_SY200_.jpg",
@@ -294,7 +326,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41Q+oC53k+L._AC_SY200_.jpg",
@@ -339,7 +370,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41yAce7gd4L._AC_SY200_.jpg",
@@ -350,41 +380,40 @@
             "subSlider": [
                 {
                     "image": "img/redmi1.jpg",
-                    "discount": "23% off",
-                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-                    "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "title": " Redmi Note 12 Pro 5G",
+                    "price": "₹21,999",
+                    "mrp": "₹24,999",
+                    "discount": "12%"
                 },
                 {
                     "image": "img/redmi2.jpg",
-                    "discount": "23% off",
-                    "title": " Redmi 12 5G Jade Black 6GB RAM 12GB ROM",
-                    "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "title": " Redmi Note 11T 5G",
+                    "price": "₹18,999",
+                    "mrp": "₹21,999",
+                    "discount": "14%"
                 },
                 {
                     "image": "img/redmi3.jpg",
-                    "discount": "23% off",
-                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-                    "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "title": " Redmi Note 10 Pro Max",
+                    "price": "₹19,999",
+                    "mrp": "₹22,999",
+                    "discount": "13%"
                 },
                 {
                     "image": "img/redmi4.jpg",
-                    "discount": "23% off",
-                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-                    "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "title": "Redmi 10 Prime 2023",
+                    "price": "₹12,499",
+                    "mrp": "₹14,999",
+                    "discount": "17%"
                 },
                 {
                     "image": "img/redmi5.jpg",
-                    "discount": "23% off",
-                    "title": " Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-                    "price": "₹9,999.00",
-                    "mrp": "₹12,999.00"
+                    "title": "Redmi Note 9 Pro",
+                    "price": "₹14,999",
+                    "mrp": "₹17,999",
+                    "discount": "17%"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/411gvmvNQzL._AC_SY200_.jpg",
@@ -429,7 +458,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/4105IiC5tDL._AC_SY200_.jpg",
@@ -474,7 +502,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41Q2VNtEPJL._AC_SY200_.jpg",
@@ -519,7 +546,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/4180tJsogaL._AC_SY200_.jpg",
@@ -564,7 +590,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/31lG2Ky6TIL._AC_SY200_.jpg",
@@ -609,14 +634,14 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41U0KBNRk5L._AC_SY200_.jpg",
             "discount": "35% off",
             "title": "Lava Agni 2 Available at Rs. 16,999",
             "price": "₹16,999.00",
-            "mrp": "₹25,999.00",  "subSlider": [
+            "mrp": "₹25,999.00",
+            "subSlider": [
                 {
                     "image": "img/redmi1.jpg",
                     "discount": "23% off",
@@ -653,7 +678,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         },
         {
             "image": "https://m.media-amazon.com/images/I/41Mje26R9-L._AC_SY200_.jpg",
@@ -698,7 +722,6 @@
                     "mrp": "₹12,999.00"
                 }
             ]
-        
         }
     ],
     "sports": [
@@ -843,26 +866,26 @@
             "image5": "img/s10.jpg"
         },
         {
-            "title": "Pick up where you left off",
-            "image1": "img/s1.jpg",
-            "description": "BULMARC's Resistance Band Pull Up Assist Bands with 65+ Exercises for Pull Ups, Chin Ups, Stretchi…",
-            "price": "₹485.00",
-            "mrp": "₹1,290.00",
-            "image2": "img/s2.jpg",
-            "image3": "img/s3.jpg",
-            "image4": "img/s4.jpg",
-            "image5": "img/s5.jpg"
+            "title": "Continue shopping for",
+            "image1": "img/s11.jpg",
+            "description": "Sleepyhead Kiki - 2 Seater Sofa (Fabric, Sapling Green) 2-Person Sofa",
+            "price": "₹13,489",
+            "mrp": "₹17,999",
+            "image2": "img/s12.jpg",
+            "image3": "img/s13.jpg",
+            "image4": "img/s14.jpg",
+            "image5": "img/s15.jpg"
         },
         {
             "title": "Pick up where you left off",
-            "image1": "img/s6.jpg",
-            "description": "BULMARC's Resistance Band Pull Up Assist Bands with 65+ Exercises for Pull Ups, Chin Ups, Stretchi…",
-            "price": "₹485.00",
-            "mrp": "₹1,290.00",
-            "image2": "img/s7.jpg",
-            "image3": "img/s8.jpg",
-            "image4": "img/s9.jpg",
-            "image5": "img/s10.jpg"
+            "image1": "img/s16.jpg",
+            "description": "RD TREND Glace Cotton 210 TC King Size(108 x 100 Inches) Flat Bedsheet with 2 Pillow Covers, Patter",
+            "price": "₹688",
+            "mrp": "₹999.00",
+            "image2": "img/s17.jpg",
+            "image3": "img/s18.jpg",
+            "image4": "img/s19.jpg",
+            "image5": "img/s20.jpg"
         }
     ],
     "decoration": [

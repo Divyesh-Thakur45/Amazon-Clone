@@ -260,10 +260,18 @@ function shoppingCard(title, image1, description, price, mrp, image2, image3, im
             <p>${description}</p>
             <span class="shoppingPrice">${price}<sup>00</sup> </span><span class="shopping-mrp">M.R.P : <del>${mrp}</del></span>
             <div class="sub-shoppingBoxBody">
-                <img src=${image2} alt="">
-                <img src=${image3} alt="">
-                <img src=${image4} alt="">
-                <img src=${image5} alt="">
+                <div class="shoppingBoxSmallImg">
+                <img src="${image2}" alt="">
+                </div>
+                <div class="shoppingBoxSmallImg">
+                    <img src="${image3}" alt="">
+                </div>
+                <div class="shoppingBoxSmallImg">
+                    <img src="${image4}" alt="">
+                </div>
+                <div class="shoppingBoxSmallImg">
+                    <img src="${image5}" alt="">
+                </div>
             </div>
             <a href="#">See more</a>
         </div>
