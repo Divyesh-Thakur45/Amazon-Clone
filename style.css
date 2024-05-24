@@ -1164,6 +1164,7 @@ tr {
     font-weight: bold;
     color: #fff;
     text-decoration: none;
+    margin: 0%;
 }
 .productPrice{
     display: flex;
@@ -1213,35 +1214,90 @@ tr {
 
 
 /* Electronic Page #3rd Page  */
-/* .subElectronic{ */
-    /* background-color: red; */
-    /* background-color: #fff; */
-    
-/* } */
+.electronicPageRightSide{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.subElectronic{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    box-shadow: 0 0 5px #333;
+    padding: 20px 30px;
+    margin: 20px;
+}
 .electronicImg{
-    width: 20%;
-    /* background-color: yellow; */
+    /* width: 50%; */
+    height: 100%;
 }
 .electronicImg img{
+    background-color: #888;
     width: 100%;
+    height: 100%;
 }
-.subElectronic {
-    width: 20%;
-    background-color: #fff;
-    color: #000; /* Setting the base text color */
-    border-radius: 8px; /* Optional: for rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    overflow: hidden; /* Optional: to handle content overflow */
-    padding: 20px; /* Optional: for spacing inside the card */
-    margin: 20px; /* Optional: for spacing outside the card */
-    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+.electronicBody{
+    width: 45%;
+    /* text-align: center; */
 }
-
-.subElectronic:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+.electronicBodyTitle{
+    color: #0f1111 !important;
+    font-size: 22px !important;
+    /* line-height: 24px !important; */
+    /* font-size: 12px !important; */
+    /* line-height: 16px !important; */
 }
-
-.electronicBody {
-    /* z-index: 10; */
-    color: #000; /* Ensuring the text inside the card is white */
+.electronicBodyDescription{
+    color: #0f1111!important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+}
+.electronicfeedBack{
+    display: flex;
+    align-items: center;
+}
+.electronicstar{
+    color: #ffa41c;
+    margin: 0px 2px 0px 0px;
+}
+.downNum , .electronicrate {
+    color: #007185;
+    font-weight: 500;
+    font-size: 14px;
+}
+.boughtphone{
+    color: #565959 ;
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+.elePayMent{
+    margin: 5px 0px;
+}
+.ElePrice{
+    font-size: 28px;
+    color: #0f1111;
+}
+.eleMrp{
+    color: #232f3e;
+    font-size: 12px;
+    margin: 0px 0px 0px 4px;
+}
+.phoneDiscount{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #0f1111;
+    font-size: 14px;
+    line-height: 20px;
+}
+.primeLogo{
+    width: 50px;
+    
+}
+.delevry span{
+    text-align: center;
+    font-size: 14px;
+    color: #0f1111;
+    font-size: 500;
 }

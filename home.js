@@ -126,9 +126,6 @@ function mobileCard(image, discount, title, price, mrp, subSlider) {
     let div = `
     <div class="m1">
     <a href="Electronic.html?subSlider=${encodeURIComponent(JSON.stringify(subSlider))}">
-
-
-
         <div class="img-card">  
             <img src="${image}" alt="">
         </div>
