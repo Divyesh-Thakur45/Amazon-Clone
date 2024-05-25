@@ -283,14 +283,6 @@
                     "mrp": "₹18,499",
                     "discount": "13%",
                     "description": "6.67-inch FHD+ DotDisplay, Snapdragon 730G processor, 64MP quad camera, 4500mAh battery, 120Hz refresh rate."
-                },
-                {
-                    "image": "img/poco10.jpg",
-                    "title": "Poco F1 Armored Edition 8GB RAM 256GB ROM",
-                    "price": "₹21,999",
-                    "mrp": "₹26,999",
-                    "discount": "19%",
-                    "description": "6.18-inch FHD+ display, Snapdragon 845 processor, 12MP dual camera, 4000mAh battery, LiquidCool technology."
                 }
             ]
         },
@@ -836,7 +828,7 @@
             "mrp": "₹10,499.00",
             "subSlider": [
                 {
-                    "image": "img/iqoo_phone1.jpg",
+                    "image": "img/redmi_13_1.jpg",
                     "discount": "20% off",
                     "title": "Redmi Note 13 Pro Stellar Blue 6GB RAM 128GB ROM",
                     "price": "₹15,999",
@@ -925,7 +917,7 @@
             "mrp": "₹15,499.00",
             "subSlider": [
                 {
-                    "image": "img/iqoo_phone1.jpg",
+                    "image": "img/redmi_13_1.jpg",
                     "discount": "23% off",
                     "title": " Redmi 13c 5G Pearl White 6GB RAM 128GB ROM",
                     "price": "₹10,499.00",
@@ -933,7 +925,7 @@
                     "description": "6.67-inch FHD+ AMOLED display, Snapdragon 870 processor, 64MP quad camera, 5000mAh battery, 5G support."
                 },
                 {
-                    "image": "img/iqoo_phone2.jpg",
+                    "image": "img/redmi_13_2.jpg",
                     "discount": "20% off",
                     "title": " Redmi 13c 5G Graphite Gray 8GB RAM 128GB ROM",
                     "price": "₹12,999.00",
@@ -941,7 +933,7 @@
                     "description": "6.6-inch FHD+ DotDisplay, MediaTek Dimensity 810 processor, 50MP dual camera, 5000mAh battery, 5G connectivity."
                 },
                 {
-                    "image": "img/iqoo_phone3.jpg",
+                    "image": "img/redmi_13_3.jpg",
                     "discount": "18% off",
                     "title": " Redmi 13c 5G Sky Blue 8GB RAM 256GB ROM",
                     "price": "₹14,499.00",
@@ -949,7 +941,7 @@
                     "description": "6.67-inch Super AMOLED display, Snapdragon 732G processor, 108MP quad camera, 5020mAh battery, 120Hz refresh rate."
                 },
                 {
-                    "image": "img/iqoo_phone4.jpg",
+                    "image": "img/redmi_13_4.jpg",
                     "discount": "22% off",
                     "title": " Redmi 13c 5G Midnight Black 6GB RAM 128GB ROM",
                     "price": "₹11,999.00",
@@ -957,7 +949,7 @@
                     "description": "6.5-inch FHD+ display, MediaTek Helio G88 processor, 50MP quad camera, 6000mAh battery, 90Hz refresh rate."
                 },
                 {
-                    "image": "img/iqoo_phone5.jpg",
+                    "image": "img/redmi_13_5.jpg",
                     "discount": "21% off",
                     "title": " Redmi 13c 5G Jade Green 6GB RAM 128GB ROM",
                     "price": "₹12,499.00",
@@ -965,7 +957,7 @@
                     "description": "6.67-inch FHD+ DotDisplay, Snapdragon 720G processor, 48MP quad camera, 5020mAh battery, 18W fast charging."
                 },
                 {
-                    "image": "img/iqoo_phone6.jpg",
+                    "image": "img/redmi_13_6.jpg",
                     "discount": "17% off",
                     "title": " Redmi 9A Sport",
                     "price": "₹7,499",
@@ -973,7 +965,7 @@
                     "description": "6.53-inch HD+ display, MediaTek Helio G25 processor, 13MP rear camera, 5000mAh battery, splash-proof design."
                 },
                 {
-                    "image": "img/iqoo_phone7.jpg",
+                    "image": "img/redmi_13_7.jpg",
                     "discount": "14% off",
                     "title": " Redmi K40 Pro",
                     "price": "₹11,999",
@@ -981,7 +973,7 @@
                     "description": "6.43-inch FHD+ AMOLED display, MediaTek Helio G95 processor, 64MP quad camera, 5000mAh battery, 33W fast charging."
                 },
                 {
-                    "image": "img/iqoo_phone8.jpg",
+                    "image": "img/redmi_13_8.jpg",
                     "discount": "15% off",
                     "title": " Redmi Note 8 2021",
                     "price": "₹10,999",
@@ -989,7 +981,7 @@
                     "description": "6.53-inch FHD+ display, Snapdragon 662 processor, 48MP quad camera, 6000mAh battery, stereo speakers."
                 },
                 {
-                    "image": "img/iqoo_phone9.jpg",
+                    "image": "img/redmi_13_9.jpg",
                     "discount": "13% off",
                     "title": " Redmi 9 Power",
                     "price": "₹13,999",
@@ -997,7 +989,7 @@
                     "description": "6.22-inch HD+ display, Snapdragon 439 processor, 12MP dual camera, 5000mAh battery, AI face unlock."
                 },
                 {
-                    "image": "img/iqoo_phone10.jpg",
+                    "image": "img/redmi_13_10.jpg",
                     "discount": "14% off",
                     "title": " Redmi Note 7 Pro",
                     "price": "₹18,999",
