@@ -1107,7 +1107,8 @@ tr {
 
 /* description.html #2nd page  */
 .productDescription{
-    margin: 5% 0%;
+    background-color: #fff;
+    /* margin: 5% 0%; */
 }
 .productMainBox{
     display: flex;
@@ -1218,19 +1219,24 @@ tr {
 .subElectronic{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 70%;
     box-shadow: 0 0 5px #333;
     padding: 20px 30px;
     margin: 20px;
 }
 .electronicImg{
-    /* width: 50%; */
-    height: 100%;
+    background-color: #e9e3e3;
+    width: 50%;
+    margin: auto;
 }
+
 .electronicImg img{
-    background-color: #888;
-    width: 100%;
-    height: 100%;
+    /* background-color: #888; */
+    margin: auto;
+    display: block;
+    width: 250px;
+    height: 50vh;
+    border-radius: 10px;
 }
 .electronicBody{
     width: 45%;
@@ -1328,12 +1334,19 @@ tr {
     justify-content: space-between;
     align-items: center;
 }
+.Results{
+    margin: 10px 20px;
+}
 .results p{
     margin: 0%;
     color: #0f1111;
     font-size: 14px;
     font-style: arial;
     font-weight: 400;
+}
+.results h4{
+    font-weight: bold;
+    font-size: 22px;
 }
 .bestSelling ul{
     margin: 0%;
@@ -1367,14 +1380,19 @@ tr {
     left: 0%;
     width: 120%;
 }
-
+#ElectronicsData{
+    display: flex;
+}
 #ElectronicsDataPageRight{
-    display: none;
+    /* display: none; */
+    /* margin: 0% 0% 0% 20%; */
+    width: 80%;
+    background-color: #fff;
 }
 #ElectronicsDataPageLeft{
-    /* height: 100vh; */
-    padding: 10px 0px 0px 20px;
+    padding: 10px 0px 20px 20px;
     background-color: #fff;
+    border-right: 1px solid #bbb;
     width: 20%;
     font-family: "Amazon Ember", Arial, sans-serif;
 
@@ -1411,4 +1429,8 @@ tr {
 .paraBodySame:hover{
     color: #fa8900;
     cursor: pointer;
+}
+.logImg img{
+    margin: 10% auto;
+    display: block;
 }
