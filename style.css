@@ -490,23 +490,19 @@ table tr td a {
 }
 
 .sport-slider {
-    /* display: flex;
-    
-    margin: auto;
-    overflow: auto;
-    
-    position: relative; */
     width: 90%;
     gap: 40px;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    /* width: calc(100% - 80px); Adjust width considering arrow buttons */
     margin: auto;
 }
-.sport-slider img{
+.sport-slider-img{
     width: 200px;
+}
+.sport-slider-img img{
+    width: 100%;
 }
 
 .leftArrow2 {
@@ -1109,7 +1105,7 @@ tr {
 
 
 
-/* product.html #2nd page  */
+/* description.html #2nd page  */
 .productDescription{
     margin: 5% 0%;
 }
@@ -1121,12 +1117,13 @@ tr {
     align-items: center;
 }
 .productImg{
-    width: 50%;
-    background-color: red;
+    /* width: 100%; */
+    height: 70vh;
+    /* background-color: red; */
 }
 .productImg img{
-    width: 100%;
-    /* height: 100%; */
+    /* width: 100%; */
+    height: 100%;
 }
 .productText{
     width: 45%;
@@ -1300,4 +1297,118 @@ tr {
     font-size: 14px;
     color: #0f1111;
     font-size: 500;
+}
+#third-nav{
+    background-color: #fff;
+    border: 1px solid #bbb;
+    align-items: center;
+    padding: 10px 50px 15px 50px;
+}
+#third-nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    margin: 0%;
+}
+#third-nav ul li{
+    list-style: none;
+}
+#third-nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+#sortsection{
+    background-color: #fff;
+    border: 1px solid #bbb;
+    align-items: center;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.results p{
+    margin: 0%;
+    color: #0f1111;
+    font-size: 14px;
+    font-style: arial;
+    font-weight: 400;
+}
+.bestSelling ul{
+    margin: 0%;
+    align-items: center;
+}
+.bestSelling p{
+    margin: 0%;
+    background-color: #f0f2f2;
+    border:2px solid #d5d9d9;
+    border-radius: 8px;
+    color: #0f1111;
+    font-size: 11px;
+    padding: 2px 7px;
+
+}
+.bestSelling li{
+    list-style: none;
+}
+.bestSellingPara{
+    position: relative;
+    cursor: pointer;
+}
+.bestSellingPara:hover .subBestSelling{
+    
+    display: block;
+}
+.subBestSelling{
+    display: none;
+    position: absolute;
+    /* background-color: #fff; */
+    left: 0%;
+    width: 120%;
+}
+
+#ElectronicsDataPageRight{
+    display: none;
+}
+#ElectronicsDataPageLeft{
+    /* height: 100vh; */
+    padding: 10px 0px 0px 20px;
+    background-color: #fff;
+    width: 20%;
+    font-family: "Amazon Ember", Arial, sans-serif;
+
+}
+.paraHeadSame{
+    margin: 0%;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #0f1111;
+}
+.category a{
+    text-decoration: none;
+    color: #0f1111;
+    margin: 0px 0px 0px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1cap;
+}
+.category a:hover{
+    color: #fa8900;
+}
+.category h6{
+    font-weight: 700;
+    margin: 0px 0px 0px 15px;
+    font-size: 14px;
+}
+.category span{
+    font-size: 14px;
+    margin: 0px 0px 0px 25px;
+}
+.paraBodySame{
+    font-size: 14px;
+}
+.paraBodySame:hover{
+    color: #fa8900;
+    cursor: pointer;
 }

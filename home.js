@@ -71,13 +71,13 @@ function card(image1, image2, image3, image4, title1, title2, title3, title4, ti
         <h4>${title}</h4>
         <div class="small-box">
             <div class="sub-box">
-            <a href="product.html?image1=${encodeURIComponent(image1)}">
+            <a href="description.html?image1=${encodeURIComponent(image1)}">
                 <img src="${image1}" alt="">
                 <p>${title1}</p>
             </a>
             </div>
             <div class="sub-box">
-            <a href="product.html?image2=${encodeURIComponent(image2)}">
+            <a href="description.html?image2=${encodeURIComponent(image2)}">
                 <img src="${image2}" alt="">
                 <p>${title2}</p>
             </a>
@@ -85,13 +85,13 @@ function card(image1, image2, image3, image4, title1, title2, title3, title4, ti
         </div>
         <div class="small-box">
             <div class="sub-box">
-            <a href="product.html?image3=${encodeURIComponent(image3)}">
+            <a href="description.html?image3=${encodeURIComponent(image3)}">
                 <img src="${image3}" alt="">
                 <p>${title3}</p>
             </a>
             </div>
             <div class="sub-box">
-            <a href="product.html?image4=${encodeURIComponent(image4)}">
+            <a href="description.html?image4=${encodeURIComponent(image4)}">
                 <img src="${image4}" alt="">
                 <p>${title4}</p>
             </a>
@@ -172,7 +172,9 @@ thirdSliderData()
 
 function sliderImg(image) {
     let div = `
+    <a href="description.html?image=${encodeURIComponent(image)}">
             <img src="${image}" alt="">
+    </a>
     `
     return div
 }

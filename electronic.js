@@ -1,8 +1,9 @@
 let para = new URLSearchParams(window.location.search)
 let subslider = JSON.parse(para.get("subSlider"))
 
-let phone = subslider.map((el) => `
-<div class="subElectronic">
+let phone = subslider.map((el) => {
+    let div = `
+        <div class="subElectronic">
         <div class="electronicImg">
             <img src="${el.image}" alt="">
         </div>
@@ -37,5 +38,11 @@ let phone = subslider.map((el) => `
         </div>
         </div>
 </div>
-`);
+`
+    return div;
+});
 document.querySelector(".electronicPageRightSide").innerHTML = phone.join("")
+
+
+
+// input type range js 

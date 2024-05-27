@@ -4,6 +4,8 @@ let image2 = param.get("image2")
 let image3 = param.get("image3")
 let image4 = param.get("image4")
 
+let Sliderimage = param.get("image")
+
 let image = document.querySelector(".productSubImg")
 if(image1){
     image.src = image1
@@ -16,4 +18,7 @@ else if(image3){
 }
 else if(image4){
     image.src = image4
+}
+else if(Sliderimage){
+    image.src = Sliderimage
 }
