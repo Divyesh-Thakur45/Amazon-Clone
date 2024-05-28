@@ -4,6 +4,25 @@ let image2 = param.get("image2")
 let image3 = param.get("image3")
 let image4 = param.get("image4")
 
+// Electronic Page
+let imageOfPhone = param.get("image")
+let title = param.get("title")
+let description = param.get("description")
+let price = param.get("price")
+let mrp = param.get("mrp")
+let discount = param.get("discount")
+let DescriptionTitle = document.querySelector(".ProductTitle")
+DescriptionTitle.innerHTML = title
+let DescriptionPageDe = document.querySelector(".ProductDescription")
+DescriptionPageDe.innerHTML = description
+let DescriptionDiscount = document.querySelector(".productDiscount")
+DescriptionDiscount.innerHTML = discount
+let DescriptionPrice = document.querySelector(".proPrice")
+DescriptionPrice.innerHTML = price
+let Descriptionmrp = document.querySelector(".DescMrp")
+Descriptionmrp.innerHTML = mrp
+
+// ThirdSlider  Image 
 let Sliderimage = param.get("image")
 
 let image = document.querySelector(".productSubImg")
@@ -21,4 +40,7 @@ else if(image4){
 }
 else if(Sliderimage){
     image.src = Sliderimage
+}
+else if(imageOfPhone){
+    image.src = imageOfPhone
 }
