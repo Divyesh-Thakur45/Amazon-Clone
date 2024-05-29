@@ -4,7 +4,7 @@ let subslider = JSON.parse(para.get("subSlider"))
 let phone = subslider.map((el) => {
     let div = `
         <div class="subElectronic">
-        <a href="description.html?image=${encodeURIComponent(el.image)}&title=${encodeURIComponent(el.title)}&description=${encodeURIComponent(el.description)}&price=${encodeURIComponent(el.price)}&mrp=${encodeURIComponent(el.mrp)}&discount=${encodeURIComponent(el.discount)}">
+        <a href="description.html?image=${encodeURIComponent(el.image)}&title=${encodeURIComponent(el.title)}&description=${encodeURIComponent(el.description)}&price=${encodeURIComponent(el.price)}&mrp=${encodeURIComponent(el.mrp)}&discount=${encodeURIComponent(el.discount)}&id=${encodeURIComponent(el.id)}">
             <div class="electronicImg">
                 <img src="${el.image}" alt="">
             </div>

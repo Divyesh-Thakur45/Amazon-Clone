@@ -44,3 +44,14 @@ else if(Sliderimage){
 else if(imageOfPhone){
     image.src = imageOfPhone
 }
+
+
+document.addEventListener("click",(e)=>{
+    if(e.target.classList.contains("AddTOCardProduct")){
+        console.log(e.target.id)
+    }
+})
+
+function addCard(){
+    fetch("http://localhost:3000/slider")
+}
