@@ -26,32 +26,46 @@ Descriptionmrp.innerHTML = mrp
 let Sliderimage = param.get("image")
 
 let image = document.querySelector(".productSubImg")
-if(image1){
+if (image1) {
     image.src = image1
 }
-else if(image2){
+else if (image2) {
     image.src = image2
 }
-else if(image3){
+else if (image3) {
     image.src = image3
 }
-else if(image4){
+else if (image4) {
     image.src = image4
 }
-else if(Sliderimage){
+else if (Sliderimage) {
     image.src = Sliderimage
 }
-else if(imageOfPhone){
+else if (imageOfPhone) {
     image.src = imageOfPhone
 }
 
 
-document.addEventListener("click",(e)=>{
-    if(e.target.classList.contains("AddTOCardProduct")){
-        console.log(e.target.id)
+document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("AddTOCardProduct")) {
+        addCard()
     }
 })
 
-function addCard(){
-    fetch("http://localhost:3000/slider")
+function addCard() {
+    let obj = {
+        "title": param.get("title"),
+        "description": param.get("description"),
+        "price": param.get("price"),
+        "mrp": param.get("mrp"),
+        "discount": param.get("discount"),
+        "imageOfPhone": param.get("image")
+    }
+    fetch("http://localhost:3000/addToCard", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(obj),
+    })
 }

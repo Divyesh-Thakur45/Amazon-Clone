@@ -161,6 +161,10 @@ leftside.addEventListener("click", () => {
     mobileSlider.scrollLeft -= mobileSlider.clientWidth;
 });
 
+window.addEventListener("resize", () => {
+    // Optional: Adjust any dynamic properties on resize
+});
+
 
 
 function thirdSliderData() {
@@ -170,9 +174,9 @@ function thirdSliderData() {
 }
 thirdSliderData()
 
-function sliderImg(image) {
+function sliderImg(image,discount,title,price,mrp,description) {
     let div = `
-    <a href="description.html?image=${encodeURIComponent(image)}">
+    <a href="description.html?image=${encodeURIComponent(image)}&discount=${encodeURIComponent(discount)}&title=${encodeURIComponent(title)}&price=${encodeURIComponent(price)}&mrp=${encodeURIComponent(mrp)}&description=${encodeURIComponent(description)}">
             <img src="${image}" alt="">
     </a>
     `
@@ -181,7 +185,7 @@ function sliderImg(image) {
 
 function slideimagess(data) {
     let store = data.map((e) => {
-        return sliderImg(e.image)
+        return sliderImg(e.image,e.discount,e.title,e.price,e.mrp,e.description)
     })
     document.querySelector(".sport-slider").innerHTML = store.join("")
 }
