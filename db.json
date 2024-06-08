@@ -1672,47 +1672,1004 @@
   "product": [
     {
       "image": "img/a1.jpg",
-      "id": "401a"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "401a",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a3.jpg",
-      "id": "7523"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "7523",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a4.jpg",
-      "id": "1140"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "1140",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a5.jpg",
-      "id": "230e"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "230e",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a6.jpg",
-      "id": "8abe"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "8abe",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a7.jpg",
-      "id": "5742"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "5742",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a8.jpg",
-      "id": "228e"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "228e",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a9.jpg",
-      "id": "0134"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "0134",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a10.jpg",
-      "id": "cc20"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "cc20",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a11.jpg",
-      "id": "0881"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "0881",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     },
     {
       "image": "img/a12.jpg",
-      "id": "bee4"
+      "discount": "10%",
+      "title": "Dell Inspiron 15 3000",
+      "price": "$499.99",
+      "mrp": "$555.99",
+      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
+      "id": "bee4",
+      "subProduct": [
+        {
+          "image": "image1.jpg",
+          "discount": "10%",
+          "title": "Dell Inspiron 15 3000",
+          "price": "$499.99",
+          "mrp": "$555.99",
+          "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks."
+        },
+        {
+          "image": "image2.jpg",
+          "discount": "15%",
+          "title": "Dell XPS 13",
+          "price": "$999.99",
+          "mrp": "$1175.99",
+          "description": "The Dell XPS 13 offers a premium computing experience with its stunning 13.3-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Perfect for professionals and power users."
+        },
+        {
+          "image": "image3.jpg",
+          "discount": "12%",
+          "title": "Dell G5 15 Gaming Laptop",
+          "price": "$899.99",
+          "mrp": "$1022.99",
+          "description": "Designed for gamers, the Dell G5 15 features a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. It delivers excellent gaming performance."
+        },
+        {
+          "image": "image4.jpg",
+          "discount": "8%",
+          "title": "Dell Latitude 5410",
+          "price": "$1299.99",
+          "mrp": "$1415.99",
+          "description": "The Dell Latitude 5410 is a business-class laptop with a 14-inch Full HD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. It is built for productivity and durability in the workplace."
+        },
+        {
+          "image": "image5.jpg",
+          "discount": "20%",
+          "title": "Dell Vostro 14 5000",
+          "price": "$799.99",
+          "mrp": "$999.99",
+          "description": "The Dell Vostro 14 5000 is a versatile laptop for small businesses, featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 256GB SSD. It offers reliable performance and security features."
+        },
+        {
+          "image": "image6.jpg",
+          "discount": "30%",
+          "title": "Dell Alienware M15 R3",
+          "price": "$1399.99",
+          "mrp": "$1999.99",
+          "description": "The Dell Alienware M15 R3 is a high-performance gaming laptop with a 15.6-inch Full HD display, Intel Core i7 processor, 16GB RAM, 1TB SSD, and NVIDIA GeForce RTX 2070 graphics card. It is perfect for serious gamers."
+        },
+        {
+          "image": "image7.jpg",
+          "discount": "25%",
+          "title": "Dell Precision 5550",
+          "price": "$1799.99",
+          "mrp": "$2399.99",
+          "description": "The Dell Precision 5550 is a powerful workstation laptop designed for professionals, featuring a 15.6-inch 4K UHD display, Intel Xeon processor, 32GB RAM, and 1TB SSD. Ideal for demanding applications and multitasking."
+        },
+        {
+          "image": "image8.jpg",
+          "discount": "50%",
+          "title": "Dell Chromebook 3100",
+          "price": "$199.99",
+          "mrp": "$399.99",
+          "description": "The Dell Chromebook 3100 is a budget-friendly laptop with an 11.6-inch HD display, Intel Celeron processor, 4GB RAM, and 32GB eMMC storage. Perfect for students and casual users."
+        },
+        {
+          "image": "image9.jpg",
+          "discount": "35%",
+          "title": "Dell Inspiron 14 7000",
+          "price": "$649.99",
+          "mrp": "$999.99",
+          "description": "The Dell Inspiron 14 7000 is a sleek and lightweight laptop featuring a 14-inch Full HD display, Intel Core i5 processor, 8GB RAM, and 512GB SSD. Great for both work and entertainment."
+        },
+        {
+          "image": "image10.jpg",
+          "discount": "70%",
+          "title": "Dell G3 15",
+          "price": "$449.99",
+          "mrp": "$1499.99",
+          "description": "The Dell G3 15 is an affordable gaming laptop with a 15.6-inch Full HD display, Intel Core i5 processor, 8GB RAM, 256GB SSD, and NVIDIA GeForce GTX 1650 graphics card. Ideal for entry-level gaming."
+        }
+      ]
     }
   ],
   "shopping": [

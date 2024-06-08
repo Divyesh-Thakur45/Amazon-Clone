@@ -575,15 +575,21 @@
   .ShoppingCardBody {
     width: 100%;
   }
-
+  .shoppingCardBodyHead{
+    display: flex;
+    flex-direction: column;
+  }
   .ShoppingCardBodyTitle {
     font-size: 16px;
   }
 
   .shoppingCardBodyHead h5 {
     font-size: 12px;
+    width: 100%;
   }
-
+  .subPriceMrpDis{
+    width: 100%;
+  }
   .subPriceMrpDis p {
     font-size: 16px;
     text-align: left;

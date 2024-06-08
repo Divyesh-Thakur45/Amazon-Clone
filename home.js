@@ -122,7 +122,6 @@ function mobileData() {
 mobileData()
 
 function mobileCard(image, discount, title, price, mrp, subSlider) {
-    console.log(subSlider)
     let div = `
     <div class="m1">
     <a href="Electronic.html?subSlider=${encodeURIComponent(JSON.stringify(subSlider))}">
@@ -165,8 +164,6 @@ window.addEventListener("resize", () => {
     // Optional: Adjust any dynamic properties on resize
 });
 
-
-
 function thirdSliderData() {
     fetch("http://localhost:3000/sports").then((res) => res.json())
         .then((data) => slideimagess(data))
@@ -204,8 +201,6 @@ leftArrow2.addEventListener("click", () => {
     sportSlider.scrollLeft -= sportSlider.clientWidth;
 });
 
-
-
 function fourthSlider() {
     fetch("http://localhost:3000/product").then((res) => res.json())
         .then((data) => fourthcardList(data))
@@ -213,10 +208,12 @@ function fourthSlider() {
 }
 fourthSlider()
 
-function fourthcard(image) {
+function fourthcard(image,subProduct) {
     let div = `
             <div class="product-img">
+            <a href="Electronic.html?subProduct=${encodeURIComponent(JSON.stringify(subProduct))}">
                 <img src="${image}" alt="">
+            </a>
             </div>
     `
     return div
@@ -224,7 +221,7 @@ function fourthcard(image) {
 
 function fourthcardList(data) {
     let store = data.map((e) => {
-        return fourthcard(e.image)
+        return fourthcard(e.image,e.subProduct)
     })
     document.querySelector(".product-slider").innerHTML = store.join("")
 }
@@ -242,7 +239,6 @@ leftArrow3.addEventListener("click", () => {
     productSlider.style.scrollBehavior = "smooth"
     productSlider.scrollLeft -= productSlider.clientWidth;
 });
-
 
 function shoppingData() {
     fetch("http://localhost:3000/shopping")
