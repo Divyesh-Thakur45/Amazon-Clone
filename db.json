@@ -2104,24 +2104,6 @@
       "imageOfPhone": "img/redmi10.jpg"
     },
     {
-      "id": "2235",
-      "title": "Fitness Gym Dumbbell",
-      "description": "SLOVIC Dumbbells Set for Home Gym | 5kg Dumbbells Set of 2 | Fitness Gym Dumbbell set for Home Workout | Anti Skid rubber Dumbbell set | Weights for Workout",
-      "price": "₹1,799",
-      "mrp": "₹2,999",
-      "discount": "40% off",
-      "imageOfPhone": "img/1.jpg"
-    },
-    {
-      "id": "3f69",
-      "title": "Boldfit Adjustable Hand Grip ",
-      "description": "Boldfit Adjustable Hand Grip Strengthener, Hand Gripper for Men & Women for Gym Workout Hand Exercise Equipment to Use in Home for Forearm Exercise, Finger Exercise Power Gripper (60 Kg) Orange",
-      "price": "₹199",
-      "mrp": "₹499",
-      "discount": "60% off",
-      "imageOfPhone": "img/8.jpg"
-    },
-    {
       "id": "6711",
       "title": "Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
       "description": "6.67-inch FHD+ DotDisplay, Snapdragon 720G processor, 48MP quad camera, 5020mAh battery, 18W fast charging.",
@@ -2129,15 +2111,6 @@
       "mrp": "₹12,999.00",
       "discount": "50% off",
       "imageOfPhone": "img/redmi5.jpg"
-    },
-    {
-      "id": "c0fb",
-      "title": "undefined",
-      "description": "undefined",
-      "price": "undefined",
-      "mrp": "undefined",
-      "discount": "undefined",
-      "imageOfPhone": "img/d1.jpg"
     }
   ]
 }

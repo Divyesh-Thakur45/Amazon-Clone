@@ -176,7 +176,6 @@
 
   #FourthSlider {
     width: 98%;
-    
   }
   .product-slider {
     width: 100%;
@@ -197,10 +196,9 @@
   .RightArrow3 {
     top: 40%;
   }
-  #shopping{
+  #shopping {
     width: 98%;
     padding: 0%;
-
   }
   .shoppingMainBox {
     display: flex;
@@ -409,5 +407,215 @@
   .flag a {
     display: block;
     padding: 5px;
+  }
+
+  /* Description page */
+  #third-nav {
+    display: none;
+    /* background-color: red; */
+  }
+  #smallNav {
+    margin: 0px 0px 5px 0px;
+    background-color: white;
+    width: 98%;
+    margin: auto;
+    /* padding: 2px 5px; */
+    overflow: scroll;
+    display: block;
+  }
+  #smallNav ul {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    justify-content: space-between;
+  }
+  #smallNav ul li {
+    list-style: none;
+    text-align: center;
+    /* background-color: red; */
+    margin: 0px 2px 0px 0px;
+  }
+  #smallNav ul li img {
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50px; */
+  }
+  #smallNav ul li a {
+    color: #000;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+  }
+  .productMainBox {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .productImg,
+  .productText,
+  .cardDetail {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .ProductTitle {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .Visit,
+  .ratings,
+  .bought,
+  .Deal,
+  .ProductMrp,
+  .taxes,
+  .EMI,
+  .offers p {
+    text-align: center;
+  }
+  .btnDeal {
+    text-align: center;
+  }
+  .offers {
+    /* margin: auto; */
+    text-align: center;
+    /* background-color: red; */
+  }
+  .feedBack {
+    justify-content: center;
+  }
+
+  .productPrice {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .IconeText {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .IconeText div {
+    margin-bottom: 10px;
+  }
+
+  .offerBox {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .product-description {
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .product-description h1,
+  .product-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .product-details {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .product-features {
+    font-size: 12px;
+  }
+
+  /* Electronic */
+  #ElectronicsData {
+    display: flex;
+    flex-direction: column;
+  }
+  #ElectronicsDataPageLeft {
+    width: 100%;
+  }
+  #ElectronicsDataPageRight {
+    width: 100%;
+  }
+  .electronicImg {
+    margin: 0%;
+  }
+  .electronicImg img {
+    margin: 0%;
+  }
+  .subElectronic {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    box-shadow: 0 0 5px #333;
+    padding: 10px 20px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .electronicBody {
+    width: 100%;
+    /* text-align: center; */
+  }
+
+  /* add TO Card */
+  #shoppingCard {
+    background-color: #fff;
+    width: 100%;
+    padding: 2% 3%;
+    margin: 0px;
+  }
+  .ShoppingCardBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ShoppingCardHead,
+  .ShoppingCardBody {
+    width: 100%;
+  }
+
+  .ShoppingCardBodyTitle {
+    font-size: 16px;
+  }
+
+  .shoppingCardBodyHead h5 {
+    font-size: 12px;
+  }
+
+  .subPriceMrpDis p {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .subPriceMrpDis span,
+  .subPriceMrpDis a {
+    font-size: 12px;
+  }
+
+  .Instock,
+  .FreeShopping,
+  .ShoppingCardInput span,
+  .ShoppingCardInput a {
+    font-size: 10px;
+  }
+
+  .Qty {
+    font-size: 10px;
+  }
+
+  .shoppingBoxBottom {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .DeleteCard,
+  .Btns {
+    padding: 5px 0;
+    border-right: none;
+    border-bottom: 1px solid #d5d9d9;
+    width: 100%;
   }
 }

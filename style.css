@@ -32,6 +32,9 @@
     background-color:#232f3e;
     height: 500vh;
 } */
+.smallNav{
+    display: none;
+}
 #navigation {
     background-color: black;
     width: 100%;
@@ -152,7 +155,7 @@
 }
 
 .signin-box {
-    /* background-color: white; */
+    background-color: white;
     color: #fff;
     display: none;
     font-size: 12px;
@@ -547,6 +550,7 @@ table tr td a {
     border-radius: 5px;
     padding: 10px 5px 25px 5px;
     position: relative;
+    width: 98%;
 }
 
 .FourthSlider-head {
@@ -721,6 +725,7 @@ table tr td a {
     border-radius: 5px;
     padding: 10px 5px 25px 5px;
     position: relative;
+    width: 98%;
 }
 
 .FifthSlider-head {
@@ -940,6 +945,7 @@ table tr td a {
     background-color: #fff;
     border-radius: 5px;
     padding: 10px 5px 25px 5px;
+    width: 98%;
     position: relative;
 }
 
@@ -1531,6 +1537,10 @@ tr {
 .shoppingCardTop hr{
     margin: 5px 0px;
 }
+
+
+
+/* Add To Card */
 .ShoppingCardBox{
     display: flex;
     margin: 20px 0px 0px 0px;

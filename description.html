@@ -1,615 +1,735 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- https://www.amazon.in/ -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Divyesh Thakur</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- bootStrap min css -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script> <!-- bootStrap min js -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootStrap min js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <!-- bootStrap Icone -->
-    <link rel="stylesheet" href="media.css">
-</head>
+    <link rel="stylesheet" href="media.css" />
+  </head>
 
-<body class="body">
+  <body class="body">
     <section id="navigation" class="container-fluid">
+      <!-- logo -->
+      <div class="logo">
+        <i class="bi bi-list threeDots"></i>
+        <a href="home.html">
+          <img src="img/amazonlog.png" alt="" width="100px" />
+        </a>
+      </div>
 
-        <!-- logo -->
-        <div class="logo">
-            <i class="bi bi-list threeDots"></i>
-            <a href="home.html">
-                <img src="img/amazonlog.png" alt="" width="100px">
-            </a>
-
+      <!-- Delevery -->
+      <div class="delevery">
+        <span>Delevery to Ahemdabad 380007</span>
+        <div class="d-flex">
+          <i class="bi bi-geo-alt"></i>
+          <p>Update Location</p>
         </div>
+      </div>
 
-        <!-- Delevery -->
-        <div class="delevery">
-            <span>Delevery to Ahemdabad 380007</span>
-            <div class="d-flex">
-                <i class="bi bi-geo-alt"></i>
-                <p>Update Location</p>
-            </div>
+      <!-- search -->
+      <div class="search">
+        <div class="input-group">
+          <button
+            class="btn btn-outline-light dropdown-toggle searchDropDown"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            All
+          </button>
+          <ul class="dropdown-menu all-Search">
+            <p>Alexa Skills</p>
+            <p>Amazon Devices</p>
+            <p>Amazon Fashion</p>
+            <p>Amazon Fresh</p>
+            <p>Amazon Pharmacy</p>
+            <p>Appliances</p>
+            <p>Apps &amp; Games</p>
+            <p>Audible Audiobooks</p>
+            <p>Baby</p>
+            <p>Beauty</p>
+            <p>Car &amp; Motorbike</p>
+            <p>Clothing &amp; Accessories</p>
+            <p>Collectibles</p>
+            <p>Computers &amp; Accessories</p>
+            <p>Deals</p>
+            <p>Electronics</p>
+            <p>Furniture</p>
+            <p>Garden &amp; Outdoors</p>
+            <p>Gift Cards</p>
+            <p>Books</p>
+            <p>Grocery &amp; Gourmet Foods</p>
+            <p>Health &amp; Personal Care</p>
+            <p>Home &amp; Kitchen</p>
+            <p>Industrial &amp; Scientific</p>
+            <p>Jewellery</p>
+            <p>Kindle Store</p>
+            <p>Luggage &amp; Bags</p>
+            <p>Luxury Beauty</p>
+            <p>Movies &amp; TV Shows</p>
+            <p>MP3 Music</p>
+            <p>Music</p>
+            <p>Musical Instruments</p>
+            <p>Office Products</p>
+            <p>Pet Supplies</p>
+            <p>Prime Video</p>
+            <p>Shoes &amp; Handbags</p>
+            <p>Software</p>
+            <p>Outdoors</p>
+            <p>Save</p>
+            <p>Home Improvement</p>
+            <p>Games</p>
+            <p>Under ₹500</p>
+            <p>Video Games</p>
+            <p>Watches</p>
+          </ul>
+          <input
+            type="text"
+            class="form-control searchInput"
+            placeholder="Search Amazon.in"
+            aria-label="Text input with 2 dropdown buttons"
+          />
+          <button class="btn btn-outline-light">
+            <i class="bi bi-search"></i>
+          </button>
         </div>
+      </div>
 
-        <!-- search -->
-        <div class="search">
-            <div class="input-group">
-                <button class="btn btn-outline-light dropdown-toggle searchDropDown" type="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">All</button>
-                <ul class="dropdown-menu all-Search">
-                    <p>Alexa Skills</p>
-                    <p>Amazon Devices</p>
-                    <p>Amazon Fashion</p>
-                    <p>Amazon Fresh</p>
-                    <p> Amazon Pharmacy</p>
-                    <p>Appliances</p>
-                    <p>Apps &amp; Games</p>
-                    <p>Audible Audiobooks</p>
-                    <p>Baby</p>
-                    <p>Beauty</p>
-                    <p>Car &amp; Motorbike</p>
-                    <p>Clothing &amp; Accessories</p>
-                    <p>Collectibles</p>
-                    <p>Computers &amp; Accessories</p>
-                    <p>Deals</p>
-                    <p>Electronics</p>
-                    <p>Furniture</p>
-                    <p>Garden &amp; Outdoors</p>
-                    <p>Gift Cards
-                    <p>Books</p>
-                    <p>Grocery &amp; Gourmet Foods</p>
-                    <p>Health &amp; Personal Care</p>
-                    <p>Home &amp; Kitchen</p>
-                    <p>Industrial &amp; Scientific</p>
-                    <p>Jewellery</p>
-                    <p>Kindle Store</p>
-                    <p>Luggage &amp; Bags</p>
-                    <p>Luxury Beauty</p>
-                    <p>Movies &amp; TV Shows</p>
-                    <p>MP3 Music</p>
-                    <p>Music</p>
-                    <p>Musical Instruments</p>
-                    <p>Office Products</p>
-                    <p>Pet Supplies</p>
-                    <p>Prime Video</p>
-                    <p>Shoes &amp; Handbags</p>
-                    <p>Software</p>
-                    <p>Outdoors</p>
-                    <p>Save</p>
-                    <p>Home Improvement</p>
-                    <p>Games</p>
-                    <p>Under ₹500</p>
-                    <p>Video Games</p>
-                    <p>Watches </p>
-                </ul>
-                <input type="text" class="form-control searchInput" placeholder="Search Amazon.in"
-                    aria-label="Text input with 2 dropdown buttons">
-                <button class="btn btn-outline-light"><i class="bi bi-search"></i></button>
-
-            </div>
-        </div>
-
-        <!-- language  -->
-        <div class="language">
-            <ul>
-                <li>
-                    <a href="">En <i class="bi bi-caret-down-fill"></i></a>
-                    <ul class="sub-language">
-                        <li>
-                            <input type="radio" name="" id="">
-                            <a href="#">हिन्दी - HI</a>
-                        </li>
-                        <li>
-                            <input type="radio" name="" id="">
-                            <a href="#">தமிழ் - TA</a>
-                        </li>
-                        <li>
-                            <input type="radio" name="" id="">
-                            <a href="#">తెలుగు - TE</a>
-                        </li>
-                        <li>
-                            <input type="radio" name="" id="">
-                            <a href="#">ಕನ್ನಡ - KN</a>
-                        </li>
-                        <li>
-                            <input type="radio" name="" id="">
-                            <a href="#">বাংলা - BN</a>
-                        </li>
-                        <li>
-                            <input type="radio" name="" id="">
-                            <a href="#">മലയാളം - ML</a>
-                        </li>
-                        <li>
-                            <input type="radio" name="" id="">
-                            <a href="#">मराठी - MR</a>
-                        </li>
-                        <li>
-
-                            <a href="#">Learn more</a>
-                        </li>
-                        <hr>
-                        <p>You are shopping on Amazon.in</p>
-                        <a href="#">Change country / region</a>
-                    </ul>
-                </li>
+      <!-- language  -->
+      <div class="language">
+        <ul>
+          <li>
+            <a href="">En <i class="bi bi-caret-down-fill"></i></a>
+            <ul class="sub-language">
+              <li>
+                <input type="radio" name="" id="" />
+                <a href="#">हिन्दी - HI</a>
+              </li>
+              <li>
+                <input type="radio" name="" id="" />
+                <a href="#">தமிழ் - TA</a>
+              </li>
+              <li>
+                <input type="radio" name="" id="" />
+                <a href="#">తెలుగు - TE</a>
+              </li>
+              <li>
+                <input type="radio" name="" id="" />
+                <a href="#">ಕನ್ನಡ - KN</a>
+              </li>
+              <li>
+                <input type="radio" name="" id="" />
+                <a href="#">বাংলা - BN</a>
+              </li>
+              <li>
+                <input type="radio" name="" id="" />
+                <a href="#">മലയാളം - ML</a>
+              </li>
+              <li>
+                <input type="radio" name="" id="" />
+                <a href="#">मराठी - MR</a>
+              </li>
+              <li>
+                <a href="#">Learn more</a>
+              </li>
+              <hr />
+              <p>You are shopping on Amazon.in</p>
+              <a href="#">Change country / region</a>
             </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Sign up -->
+      <div class="signup">
+        <i class="bi bi-person signupIcone"></i>
+        <div class="sub-signup">
+          <p>Hello sign in</p>
+          <h6>Account And Lists <i class="bi bi-caret-down-fill"></i></h6>
         </div>
-
-        <!-- Sign up -->
-        <div class="signup">
-            <i class="bi bi-person signupIcone"></i>
-            <div class="sub-signup">
-                <p>Hello sign in</p>
-                <h6>Account And Lists <i class="bi bi-caret-down-fill"></i></h6>
-            </div>
-            <div class="signin-box">
-                <button class="btn btn-outline-warning w-50">Sign in</button>
-                <hr>
-                <table>
-                    <tr>
-                        <td>
-                            <h5>Your Lists</h5>
-                        </td>
-                        <td>
-                            <h5>Your Account</h5>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Create a Wish List</a></td>
-                        <td><a href="#">Your Account</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Wish from Any Website</a></td>
-                        <td><a href="#">Your Orders</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Baby Wishlist</a></td>
-                        <td><a href="#">Your Wish List</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Discover Your Style</a></td>
-                        <td><a href="#">Your Recommendations</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Explore Showroom</a></td>
-                        <td><a href="#">Your Prime Membership</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#"></a></td>
-                        <td><a href="#">Your Prime video</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#"></a></td>
-                        <td><a href="#">Your Subscribe & Save Items</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#"></a></td>
-                        <td><a href="#">Memberships & Subscriptions</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#"></a></td>
-                        <td><a href="#">Your Seller Account</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#"></a></td>
-                        <td><a href="#">Manage Your Content and Devices</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#"></a></td>
-                        <td><a href="#">Your Free Amazon Business Account</a></td>
-                    </tr>
-                </table>
-            </div>
-
-
+        <div class="signin-box">
+          <button class="btn btn-outline-warning w-50">Sign in</button>
+          <hr />
+          <table>
+            <tr>
+              <td>
+                <h5>Your Lists</h5>
+              </td>
+              <td>
+                <h5>Your Account</h5>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">Create a Wish List</a></td>
+              <td><a href="#">Your Account</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Wish from Any Website</a></td>
+              <td><a href="#">Your Orders</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Baby Wishlist</a></td>
+              <td><a href="#">Your Wish List</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Discover Your Style</a></td>
+              <td><a href="#">Your Recommendations</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">Explore Showroom</a></td>
+              <td><a href="#">Your Prime Membership</a></td>
+            </tr>
+            <tr>
+              <td><a href="#"></a></td>
+              <td><a href="#">Your Prime video</a></td>
+            </tr>
+            <tr>
+              <td><a href="#"></a></td>
+              <td><a href="#">Your Subscribe & Save Items</a></td>
+            </tr>
+            <tr>
+              <td><a href="#"></a></td>
+              <td><a href="#">Memberships & Subscriptions</a></td>
+            </tr>
+            <tr>
+              <td><a href="#"></a></td>
+              <td><a href="#">Your Seller Account</a></td>
+            </tr>
+            <tr>
+              <td><a href="#"></a></td>
+              <td><a href="#">Manage Your Content and Devices</a></td>
+            </tr>
+            <tr>
+              <td><a href="#"></a></td>
+              <td><a href="#">Your Free Amazon Business Account</a></td>
+            </tr>
+          </table>
         </div>
+      </div>
 
-        <!-- Return & order -->
-        <div class="order">
-            <p>Return</p>
-            <h6>&Orders</h6>
-        </div>
+      <!-- Return & order -->
+      <div class="order">
+        <p>Return</p>
+        <h6>&Orders</h6>
+      </div>
 
-        <!-- Cart -->
-        <div class="cart">
-            <a href="addToCart.html">
-                <i class="bi bi-cart"></i><span class="cartText">Cart</span>
-            </a>
-        </div>
+      <!-- Cart -->
+      <div class="cart">
+        <a href="addToCart.html">
+          <i class="bi bi-cart"></i><span class="cartText">Cart</span>
+        </a>
+      </div>
     </section>
 
+    <section id="smallNav" class="smallNav container-fluid">
+      <ul>
+        <li>
+          <img src="img/fation.jpg" alt="" />
+          <a href="#">Fashion</a>
+        </li>
+        <li>
+          <img src="img/mobile.jpg" alt="" />
+          <a href="#">Mobiles</a>
+        </li>
+        <li>
+          <img src="img/electronic.jpg" alt="" />
+          <a href="#">Electronics</a>
+        </li>
+        <li>
+          <img src="img/home.jpg" alt="" />
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <img src="img/miniTv.jpg" alt="" />
+          <a href="#">miniTV</a>
+        </li>
+        <li>
+          <img src="img/deal.jpg" alt="" />
+          <a href="#">Deals</a>
+        </li>
+        <li>
+          <img src="img/beuty.jpg" alt="" />
+          <a href="#">Beauty</a>
+        </li>
+        <li>
+          <img src="img/appliance.jpg" alt="" />
+          <a href="#">Appliances</a>
+        </li>
+        <li>
+          <img src="img/book-toy.jpg" alt="" />
+          <a href="#">Books,Toys</a>
+        </li>
+        <li>
+          <img src="img/grocery.jpg" alt="" />
+          <a href="#">Grocery</a>
+        </li>
+        <li>
+          <img src="img/everyDay.jpg" alt="" />
+          <a href="#">Everyday</a>
+        </li>
+      </ul>
+    </section>
     <section id="second-nav" class="container-fluid">
-        <div class="row">
-            <nav class="second-navigation">
-                <ul>
-                    <li><a href="#"><i class="bi bi-list"></i>All</a></li>
-                    <li><a href="#">Fresh</a></li>
-                    <li><a href="#">Amazon miniTV</a></li>
-                    <li><a href="#">Sell</a></li>
-                    <li><a href="#">Best Sellers</a></li>
-                    <li><a href="#">Today's Deals</a></li>
-                    <li><a href="#">Mobiles</a></li>
-                    <li><a href="#">Electronics</a></li>
-                    <li><a href="#">Prime</a></li>
-                    <li><a href="#">Customer Service</a></li>
-                    <li><a href="#">Home & Kitchen</a></li>
-                    <li><a href="#">New Releases</a></li>
-                </ul>
-                <div class="nav-img">
-                    <img src="img/nav-img.jpg" alt="">
-                </div>
-            </nav>
-
-        </div>
+      <div class="row">
+        <nav class="second-navigation">
+          <ul>
+            <li>
+              <a href="#"><i class="bi bi-list"></i>All</a>
+            </li>
+            <li><a href="#">Fresh</a></li>
+            <li><a href="#">Amazon miniTV</a></li>
+            <li><a href="#">Sell</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Today's Deals</a></li>
+            <li><a href="#">Mobiles</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Prime</a></li>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Home & Kitchen</a></li>
+            <li><a href="#">New Releases</a></li>
+          </ul>
+          <div class="nav-img">
+            <img src="img/nav-img.jpg" alt="" />
+          </div>
+        </nav>
+      </div>
     </section>
 
     <section id="third-nav" class="container-fluid">
-        <ul>
-            <li><a href="home.html"><strong>Amazon Home</strong></a></li>
-            <li><a href="#">Kitchen & Home Appliances</a></li>
-            <li><a href="#">Large Appliances</a></li>
-            <li><a href="#">Kitchen & Dining</a></li>
-            <li><a href="#">Furniture</a></li>
-            <li><a href="#">Home Furnishing</a></li>
-            <li><a href="#">Home Decor</a></li>
-            <li><a href="#">Home Improvement</a></li>
-            <li><a href="#">Garden & Outdoor</a></li>
-            <li><a href="#">Storage & Organisation</a></li>
-            <li><a href="#">Lighting</a></li>
-        </ul>
+      <ul>
+        <li>
+          <a href="home.html"><strong>Amazon Home</strong></a>
+        </li>
+        <li><a href="#">Kitchen & Home Appliances</a></li>
+        <li><a href="#">Large Appliances</a></li>
+        <li><a href="#">Kitchen & Dining</a></li>
+        <li><a href="#">Furniture</a></li>
+        <li><a href="#">Home Furnishing</a></li>
+        <li><a href="#">Home Decor</a></li>
+        <li><a href="#">Home Improvement</a></li>
+        <li><a href="#">Garden & Outdoor</a></li>
+        <li><a href="#">Storage & Organisation</a></li>
+        <li><a href="#">Lighting</a></li>
+      </ul>
     </section>
 
     <section class="productDescription">
-        <div class="productMainBox">
-            <div class="productImg">
-                <img src="" alt="" class="productSubImg">
-            </div>
-            <div class="productText">
-                <h1 class="ProductTitle">Appliances for your home | Up to 55% off</h1>
-                <p class="ProductDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
-                <span class="Visit">Visit the Daikin Store</span>
-                <div class="feedBack">
-                    <span class="rate">5.0</span>
-                    <div class="Productstar">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                    </div>
-                    <span class="ratings"> 2,446 ratings | Search this page</span>
-                </div>
-                <h6 class="bought">6K+ bought in past month</h6>
-
-                <hr>
-
-                <div>
-                    <a href="" class="Deal">Limited time deal</a>
-                </div>
-
-                <div class="productPrice">
-                    <span class="productDiscount">-37% </span>
-                    <p class="proPrice"><sup>₹</sup>36,990</p>
-                </div>
-
-                <p class="ProductMrp">M.R.P.: <del class="DescMrp">₹58,400</del></p>
-                <p class="taxes">Inclusive of all taxes</p>
-                <p class="EMI"><strong>EMI</strong> starts at ₹1,793. No Cost EMI available <a href="#" class="EMIa">EMI
-                        option</a></p>
-
-                <hr>
-
-                <div class="offers">
-                    <p>Offers</p>
-
-                    <div class="offerBox">
-                        <h6>Bank Offer</h6>
-                        <span class="a-truncate-cut">Upto ₹1,250.00 discount on select Credit Cards, Citi D…</span>
-                        <a href="#">15 Offers</a>
-                    </div>
-                    <div class="offerBox">
-                        <h6>No Cost EMI</h6>
-                        <span class="a-truncate-cut">Upto ₹83.08 EMI interest savings on Amazon Pay ICICI…</span>
-                        <a href="#">1 Offers</a>
-                    </div>
-                    <div class="offerBox">
-                        <h6>Partner Offers</h6>
-                        <span class="a-truncate-cut">Get GST invoice and save up to 28% on business purchases.</span>
-                        <a href="#">15 Offers</a>
-                    </div>
-                </div>
-
-                <hr>
-                <div class="IconeText">
-                    <div>
-                        <img src="img/i1.png" alt="">
-                        <a href="">10 days Return & Exchange</a>
-                    </div>
-                    <div>
-                        <img src="img/i2.png" alt="">
-                        <a href=""> Pay on Delivery </a>
-                    </div>
-                    <div>
-                        <img src="img/i3.png" alt="">
-                        <a href="">Free Delevery</a>
-                    </div>
-                    <div>
-                        <img src="img/i4.png" alt="">
-                        <a href="">Top Brands</a>
-                    </div>
-                </div>
-
-                <hr>
-                <div class="product-description">
-                    <h1>About This Item</h1>
-                    <p class="product-title">Amazing Product Title</p>
-                    <p class="product-details">This is a fantastic product that offers incredible features and benefits.
-                        It is designed to meet all your needs and exceed your expectations.</p>
-                    <ul class="product-features">
-                        <li>Feature 1: High-quality materials</li>
-                        <li>Feature 2: Advanced technology</li>
-                        <li>Feature 3: User-friendly design</li>
-                        <li>Feature 4: Affordable price</li>
-                        <li>Feature 5: Excellent customer support</li>
-                    </ul>
-                </div>
-
-
-            </div>
-            <div class="cardDetail">
-                <div class="subCardDetail">
-                    <div class="rupis">
-                        <h3> <sup>₹</sup> 227 <sup>00</sup> </h3>
-                    </div>
-                    <p class="HourDelevery"><a href="">FREE delivery</a> <strong>Friday, 31 May</strong>. Order within <span> 12 hrs 48
-                            mins.</span> <a href="">Details</a></p>
-                    <a href="" class="locationOfSurt">
-                        <i class="bi bi-geo-alt"></i> Delivering to Surat 394107 <br> - Update location
-                    </a>
-                    <h6 class="InStock">In stock</h6>
-                    <div class="dropdown">
-                        <button class="Qty dropdown-toggle" type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Qty : 1
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">1</a></li>
-                            <li><a class="dropdown-item" href="#">2</a></li>
-                            <li><a class="dropdown-item" href="#">3</a></li>
-                            <li><a class="dropdown-item" href="#">4</a></li>
-                            <li><a class="dropdown-item" href="#">5</a></li>
-                            <li><a class="dropdown-item" href="#">6</a></li>
-                            <li><a class="dropdown-item" href="#">7</a></li>
-                            <li><a class="dropdown-item" href="#">8</a></li>
-                            <li><a class="dropdown-item" href="#">9</a></li>
-                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                        </ul>
-                    </div>
-                    <div class="cardBtns">
-                        <button class="AddTOCardProduct">Add To Cart</button>
-                        <button class="productBuy">Buy Now</button>
-                    </div>
-                </div>
-            </div>
+      <div class="productMainBox">
+        <div class="productImg">
+          <img src="" alt="" class="productSubImg" />
         </div>
+        <div class="productText">
+          <h1 class="ProductTitle">Appliances for your home | Up to 55% off</h1>
+          <p class="ProductDescription">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          </p>
+          <span class="Visit">Visit the Daikin Store</span>
+          <div class="feedBack">
+            <span class="rate">5.0</span>
+            <div class="Productstar">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <span class="ratings"> 2,446 ratings | Search this page</span>
+          </div>
+          <h6 class="bought">6K+ bought in past month</h6>
+
+          <hr />
+
+          <div class="btnDeal">
+            <a href="" class="Deal">Limited time deal</a>
+          </div>
+
+          <div class="productPrice">
+            <span class="productDiscount">-37% </span>
+            <p class="proPrice"><sup>₹</sup>36,990</p>
+          </div>
+
+          <p class="ProductMrp">M.R.P.: <del class="DescMrp">₹58,400</del></p>
+          <p class="taxes">Inclusive of all taxes</p>
+          <p class="EMI">
+            <strong>EMI</strong> starts at ₹1,793. No Cost EMI available
+            <a href="#" class="EMIa">EMI option</a>
+          </p>
+
+          <hr />
+
+          <div class="offers">
+            <p>Offers</p>
+
+            <div class="offerBox">
+              <h6>Bank Offer</h6>
+              <span class="a-truncate-cut"
+                >Upto ₹1,250.00 discount on select Credit Cards, Citi D…</span
+              >
+              <a href="#">15 Offers</a>
+            </div>
+            <div class="offerBox">
+              <h6>No Cost EMI</h6>
+              <span class="a-truncate-cut"
+                >Upto ₹83.08 EMI interest savings on Amazon Pay ICICI…</span
+              >
+              <a href="#">1 Offers</a>
+            </div>
+            <div class="offerBox">
+              <h6>Partner Offers</h6>
+              <span class="a-truncate-cut"
+                >Get GST invoice and save up to 28% on business purchases.</span
+              >
+              <a href="#">15 Offers</a>
+            </div>
+          </div>
+
+          <hr />
+          <div class="IconeText">
+            <div>
+              <img src="img/i1.png" alt="" />
+              <a href="">10 days Return & Exchange</a>
+            </div>
+            <div>
+              <img src="img/i2.png" alt="" />
+              <a href=""> Pay on Delivery </a>
+            </div>
+            <div>
+              <img src="img/i3.png" alt="" />
+              <a href="">Free Delevery</a>
+            </div>
+            <div>
+              <img src="img/i4.png" alt="" />
+              <a href="">Top Brands</a>
+            </div>
+          </div>
+
+          <hr />
+          <div class="product-description">
+            <h1>About This Item</h1>
+            <p class="product-title">Amazing Product Title</p>
+            <p class="product-details">
+              This is a fantastic product that offers incredible features and
+              benefits. It is designed to meet all your needs and exceed your
+              expectations.
+            </p>
+            <ul class="product-features">
+              <li>Feature 1: High-quality materials</li>
+              <li>Feature 2: Advanced technology</li>
+              <li>Feature 3: User-friendly design</li>
+              <li>Feature 4: Affordable price</li>
+              <li>Feature 5: Excellent customer support</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cardDetail">
+          <div class="subCardDetail">
+            <div class="rupis">
+              <h3><sup>₹</sup> 227 <sup>00</sup></h3>
+            </div>
+            <p class="HourDelevery">
+              <a href="">FREE delivery</a> <strong>Friday, 31 May</strong>.
+              Order within <span> 12 hrs 48 mins.</span> <a href="">Details</a>
+            </p>
+            <a href="" class="locationOfSurt">
+              <i class="bi bi-geo-alt"></i> Delivering to Surat 394107 <br />
+              - Update location
+            </a>
+            <h6 class="InStock">In stock</h6>
+            <div class="dropdown">
+              <button
+                class="Qty dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Qty : 1
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">1</a></li>
+                <li><a class="dropdown-item" href="#">2</a></li>
+                <li><a class="dropdown-item" href="#">3</a></li>
+                <li><a class="dropdown-item" href="#">4</a></li>
+                <li><a class="dropdown-item" href="#">5</a></li>
+                <li><a class="dropdown-item" href="#">6</a></li>
+                <li><a class="dropdown-item" href="#">7</a></li>
+                <li><a class="dropdown-item" href="#">8</a></li>
+                <li><a class="dropdown-item" href="#">9</a></li>
+                <li><a class="dropdown-item" href="#">Delete</a></li>
+              </ul>
+            </div>
+            <div class="cardBtns">
+              <button class="AddTOCardProduct">Add To Cart</button>
+              <button class="productBuy">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="brand-snapshot">
-        <div class="brand-info">
-            <img alt="" src="https://m.media-amazon.com/images/I/11sUgaVRsYL.png" class="brand-snapshot-badge-space"
-                height="24" width="81">
-            <p><span class="a-size-medium a-text-bold">Daikin</span></p>
+    <!-- <section class="brand-snapshot">
+      <div class="brand-info">
+        <img
+          alt=""
+          src="https://m.media-amazon.com/images/I/11sUgaVRsYL.png"
+          class="brand-snapshot-badge-space"
+          height="24"
+          width="81"
+        />
+        <p><span class="a-size-medium a-text-bold">Daikin</span></p>
+      </div>
+
+      <div class="brand-stats">
+        <div class="brand-stat">
+          <img
+            alt=""
+            src="https://m.media-amazon.com/images/I/01S5bawZYgL.png"
+            class="brand-snapshot-item-image"
+            height="18"
+            width="18"
+          />
+          <p>84% positive ratings from 10K+ customers</p>
         </div>
 
-        <div class="brand-stats">
-            <div class="brand-stat">
-                <img alt="" src="https://m.media-amazon.com/images/I/01S5bawZYgL.png" class="brand-snapshot-item-image"
-                    height="18" width="18">
-                <p>84% positive ratings from 10K+ customers</p>
-            </div>
-
-            <div class="brand-stat">
-                <img alt="" src="https://m.media-amazon.com/images/I/01S5bawZYgL.png" class="brand-snapshot-item-image"
-                    height="18" width="18">
-                <p>50K+ recent orders from this brand</p>
-            </div>
-
-            <div class="brand-stat">
-                <img alt="" src="https://m.media-amazon.com/images/I/01S5bawZYgL.png" class="brand-snapshot-item-image"
-                    height="18" width="18">
-                <p>9+ years on Amazon</p>
-            </div>
+        <div class="brand-stat">
+          <img
+            alt=""
+            src="https://m.media-amazon.com/images/I/01S5bawZYgL.png"
+            class="brand-snapshot-item-image"
+            height="18"
+            width="18"
+          />
+          <p>50K+ recent orders from this brand</p>
         </div>
 
-        <div class="customer-ratings">
-            <h5>Highly rated by customers for</h5>
-            <div class="ratings-chips">
-                <div class="rating-chip">
-                    <img alt="" src="https://m.media-amazon.com/images/I/01TJnfWJEjL.png"
-                        class="brand-snapshot-chip-icon" height="14" width="14">
-                    <span class="a-size-small brand-snapshot-chip-text">good ac</span>
-                </div>
-                <div class="rating-chip">
-                    <img alt="" src="https://m.media-amazon.com/images/I/01TJnfWJEjL.png"
-                        class="brand-snapshot-chip-icon" height="14" width="14">
-                    <span class="a-size-small brand-snapshot-chip-text">good installation</span>
-                </div>
-                <div class="rating-chip">
-                    <img alt="" src="https://m.media-amazon.com/images/I/01TJnfWJEjL.png"
-                        class="brand-snapshot-chip-icon" height="14" width="14">
-                    <span class="a-size-small brand-snapshot-chip-text">silent operation</span>
-                </div>
-            </div>
+        <div class="brand-stat">
+          <img
+            alt=""
+            src="https://m.media-amazon.com/images/I/01S5bawZYgL.png"
+            class="brand-snapshot-item-image"
+            height="18"
+            width="18"
+          />
+          <p>9+ years on Amazon</p>
         </div>
-    </section>
+      </div>
+
+      <div class="customer-ratings">
+        <h5>Highly rated by customers for</h5>
+        <div class="ratings-chips">
+          <div class="rating-chip">
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/I/01TJnfWJEjL.png"
+              class="brand-snapshot-chip-icon"
+              height="14"
+              width="14"
+            />
+            <span class="a-size-small brand-snapshot-chip-text">good ac</span>
+          </div>
+          <div class="rating-chip">
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/I/01TJnfWJEjL.png"
+              class="brand-snapshot-chip-icon"
+              height="14"
+              width="14"
+            />
+            <span class="a-size-small brand-snapshot-chip-text"
+              >good installation</span
+            >
+          </div>
+          <div class="rating-chip">
+            <img
+              alt=""
+              src="https://m.media-amazon.com/images/I/01TJnfWJEjL.png"
+              class="brand-snapshot-chip-icon"
+              height="14"
+              width="14"
+            />
+            <span class="a-size-small brand-snapshot-chip-text"
+              >silent operation</span
+            >
+          </div>
+        </div>
+      </div>
+    </section> -->
 
     <div class="navFooterBackToTop">
-        <span class="navFooterBackToTopText">
-            Back to top
-        </span>
+      <span class="navFooterBackToTopText"> Back to top </span>
     </div>
 
     <section id="descrption">
-        <table class="descriptionTable">
-            <tr class="table-head">
-                <td>Get to Know Us</td>
-                <td>Connect with Us</td>
-                <td>Make Money with Us</td>
-                <td>Let Us Help You</td>
-            </tr>
-            <tr class="table-body">
-                <td>About Us</td>
-                <td>Facebook</td>
-                <td>Sell on Amazon</td>
-                <td>COVID-19 and Amazon</td>
-            </tr>
-            <tr class="table-body">
-                <td>Careers</td>
-                <td>Twitter</td>
-                <td>Sell under Amazon Accelerator</td>
-                <td>Your Account</td>
-            </tr>
-            <tr class="table-body">
-                <td>Press Releases</td>
-                <td>Instagram</td>
-                <td>Protect and Build Your Brand</td>
-                <td>Returns Centre</td>
-            </tr>
-            <tr class="table-body">
-                <td>Amazon Science</td>
-                <td></td>
-                <td>Become an Affiliate</td>
-                <td>100% Purchase Protection</td>
+      <table class="descriptionTable">
+        <tr class="table-head">
+          <td>Get to Know Us</td>
+          <td>Connect with Us</td>
+          <td>Make Money with Us</td>
+          <td>Let Us Help You</td>
+        </tr>
+        <tr class="table-body">
+          <td>About Us</td>
+          <td>Facebook</td>
+          <td>Sell on Amazon</td>
+          <td>COVID-19 and Amazon</td>
+        </tr>
+        <tr class="table-body">
+          <td>Careers</td>
+          <td>Twitter</td>
+          <td>Sell under Amazon Accelerator</td>
+          <td>Your Account</td>
+        </tr>
+        <tr class="table-body">
+          <td>Press Releases</td>
+          <td>Instagram</td>
+          <td>Protect and Build Your Brand</td>
+          <td>Returns Centre</td>
+        </tr>
+        <tr class="table-body">
+          <td>Amazon Science</td>
+          <td></td>
+          <td>Become an Affiliate</td>
+          <td>100% Purchase Protection</td>
+        </tr>
+        <tr class="table-body">
+          <td></td>
+          <td></td>
+          <td>Fulfilment by Amazon</td>
+          <td>Amazon App Download</td>
+        </tr>
+        <tr class="table-body">
+          <td></td>
+          <td></td>
+          <td>Advertise Your Products</td>
+          <td>Help</td>
+        </tr>
+        <tr class="table-body">
+          <td></td>
+          <td></td>
+          <td>Amazon Pay on Merchants</td>
+          <td></td>
+        </tr>
+        <tr class="table-body">
+          <td></td>
+          <td></td>
+          <td>Amazon Global Selling</td>
+          <td></td>
+        </tr>
+      </table>
+      <hr class="footerLine" />
+      <div class="sub-footer">
+        <div class="footerLogo">
+          <img src="img/footerLogo-removebg-preview.png" alt="" />
+        </div>
+        <div class="language">
+          <ul>
+            <li>
+              <a href="" class="footer-english"
+                ><i class="bi bi-globe2 me-1"></i>English
+                <i class="bi bi-caret-down-fill"></i
+              ></a>
+              <ul class="sub-language-footer">
+                <li>
+                  <input type="radio" name="" id="" />
+                  <a href="#">हिन्दी - HI</a>
+                </li>
+                <li>
+                  <input type="radio" name="" id="" />
+                  <a href="#">தமிழ் - TA</a>
+                </li>
+                <li>
+                  <input type="radio" name="" id="" />
+                  <a href="#">తెలుగు - TE</a>
+                </li>
+                <li>
+                  <input type="radio" name="" id="" />
+                  <a href="#">ಕನ್ನಡ - KN</a>
+                </li>
+                <li>
+                  <input type="radio" name="" id="" />
+                  <a href="#">বাংলা - BN</a>
+                </li>
+                <li>
+                  <input type="radio" name="" id="" />
+                  <a href="#">മലയാളം - ML</a>
+                </li>
+                <li>
+                  <input type="radio" name="" id="" />
+                  <a href="#">मराठी - MR</a>
+                </li>
+                <li>
+                  <a href="#">Learn more</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="flag">
+          <a href="" class="india">India</a>
+        </div>
+      </div>
+      <div class="lastFooter">
+        <table class="lastTable">
+          <tr style="font-weight: bolder">
+            <td>AbeBooks</td>
+            <td>Amazon Web Services</td>
+            <td>Audible</td>
+            <td>IMDb</td>
+          </tr>
+          <tr>
+            <td>Books, art</td>
+            <td>Scalable Cloud</td>
+            <td>Download</td>
+            <td>Movies, TV</td>
+          </tr>
+          <tr>
+            <td>& collectibles</td>
+            <td>Computing Services</td>
+            <td>Audio Books</td>
+            <td>& Celebrities</td>
+          </tr>
 
-            </tr>
-            <tr class="table-body">
-                <td></td>
-                <td></td>
-                <td>Fulfilment by Amazon</td>
-                <td>Amazon App Download</td>
-            </tr>
-            <tr class="table-body">
-                <td></td>
-                <td></td>
-                <td>Advertise Your Products</td>
-                <td>Help</td>
-            </tr>
-            <tr class="table-body">
-                <td></td>
-                <td></td>
-                <td>Amazon Pay on Merchants</td>
-                <td></td>
-            </tr>
-            <tr class="table-body">
-                <td></td>
-                <td></td>
-                <td>Amazon Global Selling</td>
-                <td></td>
-            </tr>
+          <tr style="font-weight: bolder; font-size: 18px">
+            <td>Shopbop</td>
+            <td>Amazon Business</td>
+            <td>Prime Now</td>
+            <td>Amazon Prime Music</td>
+          </tr>
+          <tr>
+            <td>Designer</td>
+            <td>Everything For</td>
+            <td>2-Hour Delivery</td>
+            <td>100 million songs, ad-free</td>
+          </tr>
+          <tr>
+            <td>Fashion Brands</td>
+            <td>Your Business</td>
+            <td>on Everyday Items</td>
+            <td>Over 15 million podcast episodes</td>
+          </tr>
         </table>
-        <hr class="footerLine">
-        <div class="sub-footer">
-            <div class="footerLogo">
-                <img src="img/footerLogo-removebg-preview.png" alt="">
-            </div>
-            <div class="language">
-                <ul>
-                    <li>
-                        <a href="" class="footer-english"><i class="bi bi-globe2 me-1"></i>English <i
-                                class="bi bi-caret-down-fill"></i></a>
-                        <ul class="sub-language-footer">
-                            <li>
-                                <input type="radio" name="" id="">
-                                <a href="#">हिन्दी - HI</a>
-                            </li>
-                            <li>
-                                <input type="radio" name="" id="">
-                                <a href="#">தமிழ் - TA</a>
-                            </li>
-                            <li>
-                                <input type="radio" name="" id="">
-                                <a href="#">తెలుగు - TE</a>
-                            </li>
-                            <li>
-                                <input type="radio" name="" id="">
-                                <a href="#">ಕನ್ನಡ - KN</a>
-                            </li>
-                            <li>
-                                <input type="radio" name="" id="">
-                                <a href="#">বাংলা - BN</a>
-                            </li>
-                            <li>
-                                <input type="radio" name="" id="">
-                                <a href="#">മലയാളം - ML</a>
-                            </li>
-                            <li>
-                                <input type="radio" name="" id="">
-                                <a href="#">मराठी - MR</a>
-                            </li>
-                            <li>
-                                <a href="#">Learn more</a>
-                            </li>
-
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="flag">
-                <a href="" class="india">India</a>
-            </div>
-        </div>
-        <div class="lastFooter">
-            <table class="lastTable">
-                <tr style="font-weight: bolder;">
-                    <td>AbeBooks</td>
-                    <td>Amazon Web Services</td>
-                    <td>Audible</td>
-                    <td>IMDb</td>
-                </tr>
-                <tr>
-                    <td>Books, art</td>
-                    <td>Scalable Cloud</td>
-                    <td>Download</td>
-                    <td>Movies, TV</td>
-                </tr>
-                <tr>
-                    <td>& collectibles</td>
-                    <td>Computing Services</td>
-                    <td>Audio Books</td>
-                    <td>& Celebrities</td>
-                </tr>
-
-
-                <tr style="font-weight: bolder; font-size: 18px;">
-                    <td>Shopbop</td>
-                    <td>Amazon Business</td>
-                    <td>Prime Now</td>
-                    <td>Amazon Prime Music</td>
-                </tr>
-                <tr>
-                    <td>Designer</td>
-                    <td>Everything For</td>
-                    <td>2-Hour Delivery</td>
-                    <td>100 million songs, ad-free</td>
-                </tr>
-                <tr>
-                    <td>Fashion Brands</td>
-                    <td>Your Business</td>
-                    <td>on Everyday Items</td>
-                    <td>Over 15 million podcast episodes</td>
-                </tr>
-            </table>
-        </div>
+      </div>
     </section>
     <script src="description.js"></script>
-</body>
-
+  </body>
 </html>
