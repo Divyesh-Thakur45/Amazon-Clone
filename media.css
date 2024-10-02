@@ -527,7 +527,36 @@
   .product-features {
     font-size: 12px;
   }
-
+  .ThreeDots{
+    height: 50px;
+    display: block;
+    background-color: #fff;
+    position: relative;
+  }
+  .ThreeDots i{
+    background-color: blue;
+    padding: 10px 13px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0%;
+  }
+  .ThreeDots2{
+    height: 50px;
+    display: block;
+    background-color: #fff;
+    position: relative;
+  }
+  .ThreeDots2 i{
+    background-color: blue;
+    padding: 10px 13px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+  .lineDontShow{
+    display: none;
+  }
   /* Electronic */
   #ElectronicsData {
     display: flex;
@@ -535,9 +564,16 @@
   }
   #ElectronicsDataPageLeft {
     width: 100%;
+    /* display: none; */
+    margin: 0% 0%;
+    position: relative;
+    left: -100%;
+    z-index: 99;
   }
   #ElectronicsDataPageRight {
     width: 100%;
+    margin: 0% 0%;
+    position: absolute;
   }
   .electronicImg {
     margin: 0%;

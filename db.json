@@ -1672,11 +1672,6 @@
   "product": [
     {
       "image": "img/a1.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "401a",
       "subProduct": [
         {
@@ -1763,11 +1758,6 @@
     },
     {
       "image": "img/a3.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "7523",
       "subProduct": [
         {
@@ -1854,11 +1844,6 @@
     },
     {
       "image": "img/a4.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "1140",
       "subProduct": [
         {
@@ -1945,11 +1930,6 @@
     },
     {
       "image": "img/a5.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "230e",
       "subProduct": [
         {
@@ -2036,11 +2016,6 @@
     },
     {
       "image": "img/a6.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "8abe",
       "subProduct": [
         {
@@ -2127,11 +2102,6 @@
     },
     {
       "image": "img/a7.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "5742",
       "subProduct": [
         {
@@ -2218,11 +2188,6 @@
     },
     {
       "image": "img/a8.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "228e",
       "subProduct": [
         {
@@ -2309,11 +2274,6 @@
     },
     {
       "image": "img/a9.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "0134",
       "subProduct": [
         {
@@ -2400,11 +2360,6 @@
     },
     {
       "image": "img/a10.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "cc20",
       "subProduct": [
         {
@@ -2491,11 +2446,6 @@
     },
     {
       "image": "img/a11.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "0881",
       "subProduct": [
         {
@@ -2582,11 +2532,6 @@
     },
     {
       "image": "img/a12.jpg",
-      "discount": "10%",
-      "title": "Dell Inspiron 15 3000",
-      "price": "$499.99",
-      "mrp": "$555.99",
-      "description": "The Dell Inspiron 15 3000 is a reliable and affordable laptop, featuring a 15.6-inch HD display, Intel Core i3 processor, 4GB RAM, and a 128GB SSD. Ideal for everyday computing tasks.",
       "id": "bee4",
       "subProduct": [
         {
@@ -3052,22 +2997,13 @@
   ],
   "addToCard": [
     {
-      "id": "f765",
+      "id": "cd89",
       "title": "Redmi Note 7 Pro",
       "description": "6.39-inch FHD+ AMOLED display, Snapdragon 855 processor, 48MP triple camera, 4000mAh battery, in-display fingerprint sensor.",
       "price": "₹18,999",
       "mrp": "₹21,999",
       "discount": "14%",
       "imageOfPhone": "img/redmi10.jpg"
-    },
-    {
-      "id": "6711",
-      "title": "Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-      "description": "6.67-inch FHD+ DotDisplay, Snapdragon 720G processor, 48MP quad camera, 5020mAh battery, 18W fast charging.",
-      "price": "₹9,999.00",
-      "mrp": "₹12,999.00",
-      "discount": "50% off",
-      "imageOfPhone": "img/redmi5.jpg"
     }
   ]
 }

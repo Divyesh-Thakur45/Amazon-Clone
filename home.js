@@ -260,16 +260,16 @@ function shoppingCard(title, image1, description, price, mrp, image2, image3, im
             <span class="shoppingPrice">${price}<sup>00</sup> </span><span class="shopping-mrp">M.R.P : <del>${mrp}</del></span>
             <div class="sub-shoppingBoxBody">
                 <div class="shoppingBoxSmallImg">
-                <img src="${image2}" alt="">
+                <img src="${image2}" alt="" class="shoppingBoxSmallImg1">
                 </div>
                 <div class="shoppingBoxSmallImg">
-                    <img src="${image3}" alt="">
+                    <img src="${image3}" alt="" class="shoppingBoxSmallImg2">
                 </div>
                 <div class="shoppingBoxSmallImg">
-                    <img src="${image4}" alt="">
+                    <img src="${image4}" alt="" class="shoppingBoxSmallImg3">
                 </div>
                 <div class="shoppingBoxSmallImg">
-                    <img src="${image5}" alt="">
+                    <img src="${image5}" alt="" class="shoppingBoxSmallImg4">
                 </div>
             </div>
             <a href="#">See more</a>
@@ -488,3 +488,4 @@ function shoesSliderCardList(data) {
     })
     document.querySelector(".shoes-slider").innerHTML = shoesSliderstore.join("")
 }
+

@@ -6,7 +6,7 @@
 }
 
 /* Form */
-.signInForm{
+.signInForm {
     width: 23%;
     height: 60vh;
     margin: 5% auto;
@@ -16,22 +16,27 @@
     font-family: "Amazon Ember", Arial, sans-serif;
     padding: 10px 30px;
 }
-.formTitle{
+
+.formTitle {
     font-size: 28px;
 }
-.formMail{
+
+.formMail {
     margin: 10px 0px;
 }
-.formMail label{
+
+.formMail label {
     display: block;
     font-size: 13px;
     font-weight: 700;
 }
-.formMail input{
+
+.formMail input {
     width: 100%;
     padding: 0px 0px 0px 15px;
 }
-.SignUpBtn{
+
+.SignUpBtn {
     width: 100%;
     height: 30px;
     border: none;
@@ -43,14 +48,16 @@
     cursor: pointer;
     margin: 10px 0px;
 }
-.frmContent{
+
+.frmContent {
     font-size: 13px;
     line-height: 19px;
     color: #111;
     font-weight: 500;
     margin: 10px 0px;
 }
-.checkboxAndCon{
+
+.checkboxAndCon {
     font-size: 13px;
     line-height: 19px;
     color: #111;
@@ -58,7 +65,8 @@
     align-items: center;
     margin: 5px 0px 15px 0px;
 }
-.signInForm h5{
+
+.signInForm h5 {
     font-size: 12px;
     color: #767676;
     font-weight: 400;
@@ -66,7 +74,8 @@
     text-align: center;
     margin: 0px 0px 15px 0px;
 }
-.creatamzonac{
+
+.creatamzonac {
     text-decoration: none;
     background-color: transparent;
     border: 0;
@@ -111,9 +120,10 @@
     background-color:#232f3e;
     height: 500vh;
 } */
-.smallNav{
+.smallNav {
     display: none;
 }
+
 #navigation {
     background-color: black;
     width: 100%;
@@ -288,10 +298,12 @@ table tr td a {
     font-size: 16px;
     /* text-decoration: none; */
 }
-.cart a{
+
+.cart a {
     text-decoration: none;
     color: #fff;
 }
+
 .cart i {
     font-size: 32px;
 }
@@ -1534,25 +1546,30 @@ tr {
     }
 }
 
-.cardDetail{
+.cardDetail {
     width: 20%;
 }
-.subCardDetail{
+
+.subCardDetail {
     border: 1px solid #bbb;
     padding: 30px 15px;
     border-radius: 5px;
 }
-.HourDelevery{
+
+.HourDelevery {
     font-size: 14px;
 }
-.HourDelevery a{
+
+.HourDelevery a {
     color: #007185;
     text-decoration: none;
 }
-.HourDelevery span{
+
+.HourDelevery span {
     color: #007600;
 }
-.locationOfSurt{
+
+.locationOfSurt {
     text-decoration: none;
     font-size: 13px;
     display: block;
@@ -1560,13 +1577,16 @@ tr {
     text-align: start;
     padding: 0px 5px;
 }
-.InStock{
+
+.InStock {
     color: #007600;
     margin: 5px 0px 10px 0px;
 }
-.cardBtns{
+
+.cardBtns {
     text-align: center;
 }
+
 .AddTOCardProduct {
     color: #000;
     font-weight: 500;
@@ -1594,105 +1614,124 @@ tr {
 
 
 
-#shoppingCard{
+#shoppingCard {
     background-color: #fff;
     width: 80%;
     padding: 2% 3%;
     margin: 3% 2%;
 }
-.shoppingCardTop h1{
+
+.shoppingCardTop h1 {
     font-weight: 400;
     font-size: 28px;
     line-height: 36px;
     color: #0f1111;
 }
-.shoppingCardTop span{
+
+.shoppingCardTop span {
     color: #565959;
     text-align: end;
     /* background-color: red; */
     display: block;
     margin: 0px;
 }
-.shoppingCardTop hr{
+
+.shoppingCardTop hr {
     margin: 5px 0px;
 }
 
 
 
 /* Add To Card */
-.ShoppingCardBox{
+.ShoppingCardBox {
     display: flex;
     margin: 20px 0px 0px 0px;
     align-items: center;
 }
-.ShoppingCardHead{
+
+.ShoppingCardHead {
     width: 20%;
     /* background-color: red; */
 }
-.ShoppingCardHead img{
+
+.ShoppingCardHead img {
     width: 100%;
 }
-.ShoppingCardBody{
+
+.ShoppingCardBody {
     width: 80%;
 }
-.ShoppingCardBodyTitle{
+
+.ShoppingCardBodyTitle {
     font-size: 18px;
 }
-.shoppingCardBodyHead h5{
+
+.shoppingCardBodyHead h5 {
     width: 80%;
     font-weight: normal;
     font-size: 14px;
 }
-.subPriceMrpDis p{
+
+.subPriceMrpDis p {
     font-size: 18px;
     margin: 0%;
     text-align: end;
 }
-.id{
+
+.id {
     background-color: red;
     /* display: none; */
     /* visibility: hidden; */
 }
-.subPriceMrpDis span{
+
+.subPriceMrpDis span {
     font-size: 10px;
     line-height: 20px;
     font-family: Arial, sans-serif;
     margin: 0%;
     color: #565959;
 }
-.subPriceMrpDis a{
+
+.subPriceMrpDis a {
     color: red;
     font-size: 14px;
     text-decoration: none;
 }
-.shoppingCardBodyHead{
+
+.shoppingCardBodyHead {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.Instock{
+
+.Instock {
     color: #007600;
     font-size: 12px;
 }
-.FreeShopping{
+
+.FreeShopping {
     font-size: 13px;
     line-height: 20px;
     font-family: Arial, sans-serif;
     margin: 0%;
     color: #565959;
 }
-.ShoppingCardInput{
+
+.ShoppingCardInput {
     align-items: center;
 }
-.ShoppingCardInput span{
+
+.ShoppingCardInput span {
     color: #000;
     font-size: 12px;
 }
-.ShoppingCardInput a{
+
+.ShoppingCardInput a {
     color: #007185;
     text-decoration: none;
 }
-.Qty{
+
+.Qty {
     background-color: #e3e6e6;
     border-radius: 3px;
     border: 2px solid #d5d9d9;
@@ -1702,7 +1741,8 @@ tr {
     font-size: 12px;
     text-align: center;
 }
-.shoppingBoxBottom{
+
+.shoppingBoxBottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1710,25 +1750,29 @@ tr {
     margin: 5px 0px;
     width: 50%;
 }
-.DeleteCard{
+
+.DeleteCard {
     text-decoration: none;
     color: #007185;
     font-size: 12px;
     border-right: 1px solid #d5d9d9;
     padding: 0px 20px 0px 0px;
 }
-.Btns{
+
+.Btns {
     text-decoration: none;
     color: #007185;
     font-size: 12px;
     border-right: 1px solid #d5d9d9;
     padding: 0px 20px 0px 0px;
-    
+
 }
-.DeleteCard:hover{
+
+.DeleteCard:hover {
     color: #d2561f;
 }
-.Btns:hover{
+
+.Btns:hover {
     color: #d2561f;
 }
 
@@ -1935,6 +1979,13 @@ tr {
     /* background-color: #fff; */
     left: 0%;
     width: 120%;
+}
+
+.ThreeDots {
+    display: none;
+}
+.ThreeDots2 {
+    display: none;
 }
 
 #ElectronicsData {
