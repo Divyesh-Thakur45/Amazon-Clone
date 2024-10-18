@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function bigSlider() {
-    fetch("http://localhost:3000/bigImg")
+    fetch("https://amazonjsonserver.onrender.com/bigImg")
         .then((res) => res.json())
         .then((data) => bigSliderCardList(data))
         .catch((error) => console.log(error))
@@ -59,7 +59,7 @@ function bigSliderCardList(data) {
 }
 
 function fetchData() {
-    fetch("http://localhost:3000/data")
+    fetch("https://amazonjsonserver.onrender.com/data")
         .then((res) => res.json())
         .then((data) => boxes(data))
         .catch((error) => console.log(error))
@@ -114,7 +114,7 @@ function boxes(data) {
 
 
 function mobileData() {
-    fetch("http://localhost:3000/slider")
+    fetch("https://amazonjsonserver.onrender.com/slider")
         .then((res) => res.json())
         .then((data) => mobileCardList(data))
         .catch((error) => console.log(error))
@@ -165,7 +165,7 @@ window.addEventListener("resize", () => {
 });
 
 function thirdSliderData() {
-    fetch("http://localhost:3000/sports").then((res) => res.json())
+    fetch("https://amazonjsonserver.onrender.com/sports").then((res) => res.json())
         .then((data) => slideimagess(data))
         .catch((error) => console.log(error))
 }
@@ -202,7 +202,7 @@ leftArrow2.addEventListener("click", () => {
 });
 
 function fourthSlider() {
-    fetch("http://localhost:3000/product").then((res) => res.json())
+    fetch("https://amazonjsonserver.onrender.com/product").then((res) => res.json())
         .then((data) => fourthcardList(data))
         .catch((error) => console.log(error))
 }
@@ -241,7 +241,7 @@ leftArrow3.addEventListener("click", () => {
 });
 
 function shoppingData() {
-    fetch("http://localhost:3000/shopping")
+    fetch("https://amazonjsonserver.onrender.com/shopping")
         .then((res) => res.json())
         .then((data) => shoppingCardList(data))
         .catch((error) => console.log(error))
@@ -292,7 +292,7 @@ function shoppingCardList(data) {
 // decoration
 
 function FifthSliderData() {
-    fetch("http://localhost:3000/decoration").then((res) => res.json())
+    fetch("https://amazonjsonserver.onrender.com/decoration").then((res) => res.json())
         .then((data) => FifthSliderCardList(data))
         .catch((error) => console.log(error))
 }
@@ -347,7 +347,7 @@ window.addEventListener("resize", () => {
 
 
 function singleData() {
-    fetch("http://localhost:3000/brands")
+    fetch("https://amazonjsonserver.onrender.com/brands")
         .then((res) => res.json())
         .then((data) => {
             data.forEach((el) => {
@@ -380,7 +380,7 @@ function singleDataCardList(data) {
 
 
 function multipleData() {
-    fetch("http://localhost:3000/brands")
+    fetch("https://amazonjsonserver.onrender.com/brands")
         .then((res) => res.json())
         .then((data) => {
             data.forEach((el) => {
@@ -467,7 +467,7 @@ leftArrow5.addEventListener("click", () => {
 
 
 function shoesSliderData() {
-    fetch("http://localhost:3000/shoes").then((res) => res.json())
+    fetch("https://amazonjsonserver.onrender.com/shoes").then((res) => res.json())
         .then((data) => shoesSliderCardList(data))
         .catch((error) => console.log(error))
 }

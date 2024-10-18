@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch("http://localhost:3000/addToCard")
+    fetch("https://amazonjsonserver.onrender.com/addToCard")
         .then((res) => res.json())
         .then((data) => cardList(data))
         .catch((error) => console.log(error))
@@ -80,7 +80,7 @@ document.addEventListener("click", (e) => {
 })
 
 function DltBtn(id) {
-    fetch(`http://localhost:3000/addToCard/${id}`,{
+    fetch(`https://amazonjsonserver.onrender.com/addToCard/${id}`,{
         method : "DELETE"
     })
 

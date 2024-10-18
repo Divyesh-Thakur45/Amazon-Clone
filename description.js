@@ -61,7 +61,7 @@ function addCard() {
         "discount": param.get("discount"),
         "imageOfPhone": param.get("image")
     }
-    fetch("http://localhost:3000/addToCard", {
+    fetch("https://amazonjsonserver.onrender.com/addToCard", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
